@@ -1,0 +1,211 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Homepage</title>
+    <style>
+
+* {
+margin: 0;
+padding: 0;
+}
+
+body {
+
+
+/*background: url("{%static 'myproject/images/slogan.png'%}")*/
+ font-family: 'Poppins', sans-serif;  
+
+
+}
+
+
+.wrapper {
+width: 1170px;
+margin: auto;
+}
+header {
+background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url();
+background: linear-gradient(#00bf8f,#001510);
+height: 100vh;
+-webkit-background-size: cover;
+background-size: cover;
+backgroun d-position: center center;
+position: relative;
+} 
+
+.nav-area {
+float: right;
+list-style: none;
+
+margin-top: 30px;
+}
+.nav-area li {
+display: inline-block;
+}
+.nav-area li a {
+color: #fff;
+text-decoration: none;
+padding: 5px 20px;
+font-family: poppins;
+font-size: 16px;
+text-transform: uppercase;
+}
+.nav-area li a:hover {
+    background: #03e9f4;
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #03e9f4,
+                0 0 25px #03e9f4,
+                0 0 50px #03e9f4,
+                0 0 100px #03e9f4;
+  }
+ 
+  .login-box a span {
+    position: absolute;
+    display: block;
+  }
+}
+.logo {
+float: left;
+color:pink;
+text-align: center;
+}
+
+.welcome-text {
+position: absolute;
+width: 600px;
+height: 300px;
+margin: 20% 30%;
+text-align: center;
+}
+.welcome-text h1 {
+text-align: center;
+color: #fff;
+text-transform: uppercase;
+font-size: 60px;
+}
+.welcome-text h1 span {
+color: #00fecb;
+}
+.welcome-text a{
+
+color: #fff;
+border:1px solid white;
+text-decoration: none;
+padding: 5px 20px;
+font-family: poppins;
+font-size: 16px;
+text-transform: uppercase;
+}
+.welcome-text a:hover {
+background: #03e9f4;
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #03e9f4,
+                0 0 25px #03e9f4,
+                0 0 50px #03e9f4,
+                0 0 100px #03e9f4;
+}
+.welcome-text a:hover {
+background: #fff;
+color: #333;
+}*/
+/*resposive*/
+
+@media (max-width:600px) {
+.wrapper {
+width: 100%;
+
+}
+.logo {
+float: none;
+width: 50%;
+text-align: center;
+margin: auto;
+}
+
+.nav-area {
+float: none;
+margin-top: 0;
+}
+.nav-area li a {
+padding: 5px;
+font-size: 11px;
+}
+.nav-area {
+text-align: center;
+}
+.welcome-text {
+/*width: 100%;
+height: auto;
+margin: 30% 0;*/
+}
+.welcome-text h1 {
+font-size: 30px;
+}
+
+}
+
+</style>    
+</head>
+<body>
+
+     <!-- <img src="{ % static 'myproject/images/slogan.png'%}">  -->
+    <header>
+    <div class="wrapper">
+        <div class="logo">
+            </div>
+<ul class="nav-area">
+<li><a href="/abt">About</a></li>
+
+<li><a href="/about">About Us</a></li>
+
+</ul>
+</div>
+<div class="welcome-text">
+<h1>Face Mask/Emotion<br><span>Detection</span></h1>
+<a id="c1" href="/run">Emotion Detection</a>
+<a id="c1" href="/mask">Mask Detection</a>
+<br>
+<br>
+
+<form action="{% url 'mask1' %}" method="GET">
+    <input type="file"  id="c1" name="myFile"/>
+    <button id='c1'>Mask</button>
+</form>
+
+<br>
+<br>
+
+<form action="{% url 'run1' %}" method="GET">
+    <input type="file"  id="c1" name="myFile"/>
+    <button id='c1'>Emotion</button>
+</form>
+<!-- <form id="frmMain" name="frmMain">
+    <input type="file" id="myFile" name="myFile"/>
+    <a href="#" onclick="showFileName()">File Name</a>
+</form>
+
+ <script type="text/javascript"> 
+    function showFileName() {
+    var fil = document.getElementById("myFile");
+     alert(fil.value);
+      window.location.path('mask1/',v1.mask1);
+    // window.location.replace("http://127.0.0.1:8000/mask1/<"+file+">")
+    
+    }
+</script> -->
+
+
+
+
+
+
+    </div>
+</header>
+
+</body>
+</html>
+

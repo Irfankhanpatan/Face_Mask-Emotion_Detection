@@ -1,0 +1,1412 @@
+<!DOCTYPE html><html lang="en-US"><head ><!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-166278107-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-166278107-2');
+</script>
+
+
+<meta name="google-site-verification" content="6EFRRaq84T67YLqYJPsG0D25ta5C-OUbFDUYlL1v2C4" />
+
+<!-- Facebook Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window,document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+ fbq('init', '624704678172422'); 
+fbq('track', 'PageView');
+</script>
+<noscript>
+ <img height="1" width="1" 
+src="https://www.facebook.com/tr?id=624704678172422&ev=PageView
+&noscript=1"/>
+</noscript>
+<!-- End Facebook Pixel Code -->
+
+<script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/1b1a8f9f4ac1eb0a4b53b9bbf/3cdd617b7e0fee6d7b00f8d61.js");</script>
+
+<meta name="p:domain_verify" content="12d10667edd3cf4e81918d948be4a61b"/>
+
+<meta name="google-site-verification" content="8xjdr5adG9yCikFZ-zRvwfshu1aCb3KeRCuVAF6O4Dw" />
+
+<!-- Global site tag (gtag.js) - Google Ads: 880840621 -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-880840621"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-880840621');
+</script>	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<title>Face Mask Detection Using OpenCV in Python &#8211; Brain Mentors</title>
+<link rel='dns-prefetch' href='//www.google.com' />
+<link rel='dns-prefetch' href='//www.googletagmanager.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="Brain Mentors &raquo; Feed" href="https://brain-mentors.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Brain Mentors &raquo; Comments Feed" href="https://brain-mentors.com/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Brain Mentors &raquo; Face Mask Detection Using OpenCV in Python Comments Feed" href="https://brain-mentors.com/face-mask-detection-using-opencv-in-python/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/brain-mentors.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.4.4"}};
+			/*! This file is auto-generated */
+			!function(e,a,t){var r,n,o,i,p=a.createElement("canvas"),s=p.getContext&&p.getContext("2d");function c(e,t){var a=String.fromCharCode;s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,e),0,0);var r=p.toDataURL();return s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,t),0,0),r===p.toDataURL()}function l(e){if(!s||!s.fillText)return!1;switch(s.textBaseline="top",s.font="600 32px Arial",e){case"flag":return!c([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])&&(!c([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!c([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]));case"emoji":return!c([55357,56424,55356,57342,8205,55358,56605,8205,55357,56424,55356,57340],[55357,56424,55356,57342,8203,55358,56605,8203,55357,56424,55356,57340])}return!1}function d(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(i=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},o=0;o<i.length;o++)t.supports[i[o]]=l(i[o]),t.supports.everything=t.supports.everything&&t.supports[i[o]],"flag"!==i[o]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[i[o]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(r=t.source||{}).concatemoji?d(r.concatemoji):r.wpemoji&&r.twemoji&&(d(r.twemoji),d(r.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='wp-block-library-css'  href='https://brain-mentors.com/wp-includes/css/dist/block-library/style.min.css?ver=5.4.4' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-block-library-theme-css'  href='https://brain-mentors.com/wp-includes/css/dist/block-library/theme.min.css?ver=5.4.4' type='text/css' media='all' />
+<link rel='stylesheet' id='wc-block-style-css'  href='https://brain-mentors.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/style.css?ver=2.5.16' type='text/css' media='all' />
+<link rel='stylesheet' id='jet-engine-frontend-css'  href='https://brain-mentors.com/wp-content/plugins/jet-engine/assets/css/frontend.css?ver=2.4.11' type='text/css' media='all' />
+<link rel='stylesheet' id='contact-form-7-css'  href='https://brain-mentors.com/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.2.2' type='text/css' media='all' />
+<link rel='stylesheet' id='rs-plugin-settings-css'  href='https://brain-mentors.com/wp-content/plugins/revslider/public/assets/css/rs6.css?ver=6.2.21' type='text/css' media='all' />
+<style id='rs-plugin-settings-inline-css' type='text/css'>
+#rs-demo-id {}
+</style>
+<link rel='stylesheet' id='woocommerce-layout-css'  href='https://brain-mentors.com/wp-content/plugins/woocommerce/assets/css/woocommerce-layout.css?ver=4.1.0' type='text/css' media='all' />
+<link rel='stylesheet' id='woocommerce-smallscreen-css'  href='https://brain-mentors.com/wp-content/plugins/woocommerce/assets/css/woocommerce-smallscreen.css?ver=4.1.0' type='text/css' media='only screen and (max-width: 768px)' />
+<link rel='stylesheet' id='woocommerce-general-css'  href='https://brain-mentors.com/wp-content/plugins/woocommerce/assets/css/woocommerce.css?ver=4.1.0' type='text/css' media='all' />
+<style id='woocommerce-inline-inline-css' type='text/css'>
+.woocommerce form .form-row .required { visibility: visible; }
+</style>
+<link rel='stylesheet' id='jupiterx-css'  href='https://brain-mentors.com/wp-content/uploads/jupiterx/compiler/jupiterx/style.css?ver=e6114b5' type='text/css' media='all' />
+<link rel='stylesheet' id='jet-popup-frontend-css'  href='https://brain-mentors.com/wp-content/plugins/jet-popup/assets/css/jet-popup-frontend.css?ver=1.4.0' type='text/css' media='all' />
+<link rel='stylesheet' id='jet-woo-builder-css'  href='https://brain-mentors.com/wp-content/plugins/jet-woo-builder/assets/css/jet-woo-builder.css?ver=1.6.5' type='text/css' media='all' />
+<style id='jet-woo-builder-inline-css' type='text/css'>
+@font-face {
+			font-family: "WooCommerce";
+			src: url("https://brain-mentors.com/wp-content/plugins/woocommerce/assets/fonts/WooCommerce.eot");
+			src: url("https://brain-mentors.com/wp-content/plugins/woocommerce/assets/fonts/WooCommerce.eot?#iefix") format("embedded-opentype"),
+				url("https://brain-mentors.com/wp-content/plugins/woocommerce/assets/fonts/WooCommerce.woff") format("woff"),
+				url("https://brain-mentors.com/wp-content/plugins/woocommerce/assets/fonts/WooCommerce.ttf") format("truetype"),
+				url("https://brain-mentors.com/wp-content/plugins/woocommerce/assets/fonts/WooCommerce.svg#WooCommerce") format("svg");
+			font-weight: normal;
+			font-style: normal;
+			}
+</style>
+<link rel='stylesheet' id='jet-woo-builder-frontend-css'  href='https://brain-mentors.com/wp-content/plugins/jet-woo-builder/assets/css/lib/jetwoobuilder-frontend-font/css/jetwoobuilder-frontend-font.css?ver=1.6.5' type='text/css' media='all' />
+<link rel='stylesheet' id='jet-elements-css'  href='https://brain-mentors.com/wp-content/plugins/jet-elements/assets/css/jet-elements.css?ver=2.3.3' type='text/css' media='all' />
+<link rel='stylesheet' id='jet-elements-skin-css'  href='https://brain-mentors.com/wp-content/plugins/jet-elements/assets/css/jet-elements-skin.css?ver=2.3.3' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-icons-css'  href='https://brain-mentors.com/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css?ver=5.9.1' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-animations-css'  href='https://brain-mentors.com/wp-content/plugins/elementor/assets/lib/animations/animations.min.css?ver=3.0.13' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-frontend-legacy-css'  href='https://brain-mentors.com/wp-content/plugins/elementor/assets/css/frontend-legacy.min.css?ver=3.0.13' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-frontend-css'  href='https://brain-mentors.com/wp-content/plugins/elementor/assets/css/frontend.min.css?ver=3.0.13' type='text/css' media='all' />
+<link rel='stylesheet' id='font-awesome-css'  href='https://brain-mentors.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/font-awesome.min.css?ver=4.7.0' type='text/css' media='all' />
+<link rel='stylesheet' id='raven-frontend-css'  href='https://brain-mentors.com/wp-content/plugins/raven/assets/css/frontend.min.css?ver=1.10.1' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-post-658-css'  href='https://brain-mentors.com/wp-content/uploads/elementor/css/post-658.css?ver=1605165906' type='text/css' media='all' />
+<link rel='stylesheet' id='powerpack-frontend-css'  href='https://brain-mentors.com/wp-content/plugins/powerpack-lite-for-elementor/assets/css/frontend.css?ver=2.1.3' type='text/css' media='all' />
+<link rel='stylesheet' id='gforms_reset_css-css'  href='https://brain-mentors.com/wp-content/plugins/gravityforms/css/formreset.min.css?ver=2.4.20' type='text/css' media='all' />
+<link rel='stylesheet' id='gforms_formsmain_css-css'  href='https://brain-mentors.com/wp-content/plugins/gravityforms/css/formsmain.min.css?ver=2.4.20' type='text/css' media='all' />
+<link rel='stylesheet' id='gforms_ready_class_css-css'  href='https://brain-mentors.com/wp-content/plugins/gravityforms/css/readyclass.min.css?ver=2.4.20' type='text/css' media='all' />
+<link rel='stylesheet' id='gforms_browsers_css-css'  href='https://brain-mentors.com/wp-content/plugins/gravityforms/css/browsers.min.css?ver=2.4.20' type='text/css' media='all' />
+<link rel='stylesheet' id='jet-blog-css'  href='https://brain-mentors.com/wp-content/plugins/jet-blog/assets/css/jet-blog.css?ver=2.2.9' type='text/css' media='all' />
+<link rel='stylesheet' id='jet-tabs-frontend-css'  href='https://brain-mentors.com/wp-content/plugins/jet-tabs/assets/css/jet-tabs-frontend.css?ver=2.1.7' type='text/css' media='all' />
+<link rel='stylesheet' id='flatpickr-css'  href='https://brain-mentors.com/wp-content/plugins/elementor/assets/lib/flatpickr/flatpickr.min.css?ver=4.1.4' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-global-css'  href='https://brain-mentors.com/wp-content/uploads/elementor/css/global.css?ver=1605165913' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-post-4828-css'  href='https://brain-mentors.com/wp-content/uploads/elementor/css/post-4828.css?ver=1605181894' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-post-8-css'  href='https://brain-mentors.com/wp-content/uploads/elementor/css/post-8.css?ver=1605165913' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-post-461-css'  href='https://brain-mentors.com/wp-content/uploads/elementor/css/post-461.css?ver=1605165913' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-post-97-css'  href='https://brain-mentors.com/wp-content/uploads/elementor/css/post-97.css?ver=1605165913' type='text/css' media='all' />
+<link rel='stylesheet' id='google-fonts-1-css'  href='https://fonts.googleapis.com/css?family=Josefin+Sans%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&#038;ver=5.4.4' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-icons-shared-0-css'  href='https://brain-mentors.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/fontawesome.min.css?ver=5.12.0' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-icons-fa-solid-css'  href='https://brain-mentors.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/solid.min.css?ver=5.12.0' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-icons-fa-brands-css'  href='https://brain-mentors.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/brands.min.css?ver=5.12.0' type='text/css' media='all' />
+<script type='text/javascript'>
+/* <![CDATA[ */
+var pp = {"ajax_url":"https:\/\/brain-mentors.com\/wp-admin\/admin-ajax.php"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://brain-mentors.com/wp-includes/js/jquery/jquery.js?ver=1.12.4-wp'></script>
+<script type='text/javascript' src='https://brain-mentors.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<script type='text/javascript' src='https://brain-mentors.com/wp-content/plugins/revslider/public/assets/js/rbtools.min.js?ver=6.2.21'></script>
+<script type='text/javascript' src='https://brain-mentors.com/wp-content/plugins/revslider/public/assets/js/rs6.min.js?ver=6.2.21'></script>
+<script type='text/javascript' src='https://www.googletagmanager.com/gtag/js?id=UA-166278107-2' async='async'></script>
+<script type='text/javascript'>
+	
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+					gtag('config', 'UA-166278107-2', { 'anonymize_ip': true });
+			
+	
+</script>
+<script type='text/javascript' src='https://brain-mentors.com/wp-content/themes/jupiterx/lib/admin/assets/lib/webfont/webfont.min.js?ver=1.6.26'></script>
+<script type='text/javascript'>
+WebFont.load({
+			google: {
+				families: ['Josefin Sans:100,200,300,400,500,600,700,800,900,100italic,200italic,300italic,400italic,500italic,600italic,700italic,800italic,900italic','Lato:100,200,300,400,500,600,700,800,900,100italic,200italic,300italic,400italic,500italic,600italic,700italic,800italic,900italic']
+			}
+		});
+</script>
+<script type='text/javascript' src='https://brain-mentors.com/wp-content/plugins/gravityforms/js/jquery.json.min.js?ver=2.4.20'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var gf_global = {"gf_currency_config":{"name":"U.S. Dollar","symbol_left":"$","symbol_right":"","symbol_padding":"","thousand_separator":",","decimal_separator":".","decimals":2},"base_url":"https:\/\/brain-mentors.com\/wp-content\/plugins\/gravityforms","number_formats":[],"spinnerUrl":"https:\/\/brain-mentors.com\/wp-content\/plugins\/gravityforms\/images\/spinner.gif"};
+var gf_global = {"gf_currency_config":{"name":"U.S. Dollar","symbol_left":"$","symbol_right":"","symbol_padding":"","thousand_separator":",","decimal_separator":".","decimals":2},"base_url":"https:\/\/brain-mentors.com\/wp-content\/plugins\/gravityforms","number_formats":[],"spinnerUrl":"https:\/\/brain-mentors.com\/wp-content\/plugins\/gravityforms\/images\/spinner.gif"};
+var gf_global = {"gf_currency_config":{"name":"U.S. Dollar","symbol_left":"$","symbol_right":"","symbol_padding":"","thousand_separator":",","decimal_separator":".","decimals":2},"base_url":"https:\/\/brain-mentors.com\/wp-content\/plugins\/gravityforms","number_formats":[],"spinnerUrl":"https:\/\/brain-mentors.com\/wp-content\/plugins\/gravityforms\/images\/spinner.gif"};
+var gf_global = {"gf_currency_config":{"name":"U.S. Dollar","symbol_left":"$","symbol_right":"","symbol_padding":"","thousand_separator":",","decimal_separator":".","decimals":2},"base_url":"https:\/\/brain-mentors.com\/wp-content\/plugins\/gravityforms","number_formats":[],"spinnerUrl":"https:\/\/brain-mentors.com\/wp-content\/plugins\/gravityforms\/images\/spinner.gif"};
+var gf_global = {"gf_currency_config":{"name":"U.S. Dollar","symbol_left":"$","symbol_right":"","symbol_padding":"","thousand_separator":",","decimal_separator":".","decimals":2},"base_url":"https:\/\/brain-mentors.com\/wp-content\/plugins\/gravityforms","number_formats":[],"spinnerUrl":"https:\/\/brain-mentors.com\/wp-content\/plugins\/gravityforms\/images\/spinner.gif"};
+var gf_global = {"gf_currency_config":{"name":"U.S. Dollar","symbol_left":"$","symbol_right":"","symbol_padding":"","thousand_separator":",","decimal_separator":".","decimals":2},"base_url":"https:\/\/brain-mentors.com\/wp-content\/plugins\/gravityforms","number_formats":[],"spinnerUrl":"https:\/\/brain-mentors.com\/wp-content\/plugins\/gravityforms\/images\/spinner.gif"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://brain-mentors.com/wp-content/plugins/gravityforms/js/gravityforms.min.js?ver=2.4.20'></script>
+<script type='text/javascript' src='https://brain-mentors.com/wp-content/plugins/gravityforms/js/placeholders.jquery.min.js?ver=2.4.20'></script>
+<link rel='https://api.w.org/' href='https://brain-mentors.com/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://brain-mentors.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://brain-mentors.com/wp-includes/wlwmanifest.xml" /> 
+<link rel='prev' title='Flutter &#038; Android Studio' href='https://brain-mentors.com/flutter-android-studio/' />
+<link rel='next' title='Hadoop Installation for Windows' href='https://brain-mentors.com/hadoopinstallation/' />
+<meta name="generator" content="WordPress 5.4.4" />
+<meta name="generator" content="WooCommerce 4.1.0" />
+<link rel="canonical" href="https://brain-mentors.com/face-mask-detection-using-opencv-in-python/" />
+<link rel='shortlink' href='https://brain-mentors.com/?p=4828' />
+<link rel="alternate" type="application/json+oembed" href="https://brain-mentors.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fbrain-mentors.com%2Fface-mask-detection-using-opencv-in-python%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://brain-mentors.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fbrain-mentors.com%2Fface-mask-detection-using-opencv-in-python%2F&#038;format=xml" />
+<!-- HFCM by 99 Robots - Snippet # 1: Google Conversion Code -->
+<!-- Global site tag (gtag.js) - Google Ads: 880840621 -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-880840621"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-880840621');
+</script>
+
+<!-- /end HFCM by 99 Robots -->
+	<noscript><style>.woocommerce-product-gallery{ opacity: 1 !important; }</style></noscript>
+	<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>		<link rel="pingback" href="https://brain-mentors.com/xmlrpc.php">
+		<meta name="generator" content="Powered by Slider Revolution 6.2.21 - responsive, Mobile-Friendly Slider Plugin for WordPress with comfortable drag and drop interface." />
+<link rel="icon" href="https://brain-mentors.com/wp-content/uploads/2020/05/cropped-bmplfavicon-32x32.png" sizes="32x32" />
+<link rel="icon" href="https://brain-mentors.com/wp-content/uploads/2020/05/cropped-bmplfavicon-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://brain-mentors.com/wp-content/uploads/2020/05/cropped-bmplfavicon-180x180.png" />
+<meta name="msapplication-TileImage" content="https://brain-mentors.com/wp-content/uploads/2020/05/cropped-bmplfavicon-270x270.png" />
+<script type="text/javascript">function setREVStartSize(e){
+			//window.requestAnimationFrame(function() {				 
+				window.RSIW = window.RSIW===undefined ? window.innerWidth : window.RSIW;	
+				window.RSIH = window.RSIH===undefined ? window.innerHeight : window.RSIH;	
+				try {								
+					var pw = document.getElementById(e.c).parentNode.offsetWidth,
+						newh;
+					pw = pw===0 || isNaN(pw) ? window.RSIW : pw;
+					e.tabw = e.tabw===undefined ? 0 : parseInt(e.tabw);
+					e.thumbw = e.thumbw===undefined ? 0 : parseInt(e.thumbw);
+					e.tabh = e.tabh===undefined ? 0 : parseInt(e.tabh);
+					e.thumbh = e.thumbh===undefined ? 0 : parseInt(e.thumbh);
+					e.tabhide = e.tabhide===undefined ? 0 : parseInt(e.tabhide);
+					e.thumbhide = e.thumbhide===undefined ? 0 : parseInt(e.thumbhide);
+					e.mh = e.mh===undefined || e.mh=="" || e.mh==="auto" ? 0 : parseInt(e.mh,0);		
+					if(e.layout==="fullscreen" || e.l==="fullscreen") 						
+						newh = Math.max(e.mh,window.RSIH);					
+					else{					
+						e.gw = Array.isArray(e.gw) ? e.gw : [e.gw];
+						for (var i in e.rl) if (e.gw[i]===undefined || e.gw[i]===0) e.gw[i] = e.gw[i-1];					
+						e.gh = e.el===undefined || e.el==="" || (Array.isArray(e.el) && e.el.length==0)? e.gh : e.el;
+						e.gh = Array.isArray(e.gh) ? e.gh : [e.gh];
+						for (var i in e.rl) if (e.gh[i]===undefined || e.gh[i]===0) e.gh[i] = e.gh[i-1];
+											
+						var nl = new Array(e.rl.length),
+							ix = 0,						
+							sl;					
+						e.tabw = e.tabhide>=pw ? 0 : e.tabw;
+						e.thumbw = e.thumbhide>=pw ? 0 : e.thumbw;
+						e.tabh = e.tabhide>=pw ? 0 : e.tabh;
+						e.thumbh = e.thumbhide>=pw ? 0 : e.thumbh;					
+						for (var i in e.rl) nl[i] = e.rl[i]<window.RSIW ? 0 : e.rl[i];
+						sl = nl[0];									
+						for (var i in nl) if (sl>nl[i] && nl[i]>0) { sl = nl[i]; ix=i;}															
+						var m = pw>(e.gw[ix]+e.tabw+e.thumbw) ? 1 : (pw-(e.tabw+e.thumbw)) / (e.gw[ix]);					
+						newh =  (e.gh[ix] * m) + (e.tabh + e.thumbh);
+					}				
+					if(window.rs_init_css===undefined) window.rs_init_css = document.head.appendChild(document.createElement("style"));					
+					document.getElementById(e.c).height = newh+"px";
+					window.rs_init_css.innerHTML += "#"+e.c+"_wrapper { height: "+newh+"px }";				
+				} catch(e){
+					console.log("Failure at Presize of Slider:" + e)
+				}					   
+			//});
+		  };</script>
+		<style type="text/css" id="wp-custom-css">
+			html{
+	overflow-x:hidden !important;
+}
+
+.grecaptcha-badge { visibility: hidden; }
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #EC5252; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+	background: #555; }
+
+
+.cf-container {
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	margin-right: -5px;
+	margin-left: -5px;
+}
+.cf-col-1, .cf-col-2, .cf-col-3, .cf-col-4, .cf-col-5, .cf-col-6, .cf-col-7, .cf-col-8, .cf-col-9, .cf-col-10, .cf-col-11, .cf-col-12 {
+	position: relative;
+	width: 100%;
+	min-height: 1px;
+	padding-right: 5px;
+	padding-left: 5px;
+}
+@media ( min-width: 576px ) {
+	.cf-col-1 {
+		-ms-flex: 0 0 8.333333%;
+		flex: 0 0 8.333333%;
+		max-width: 8.333333%;
+	}
+	.cf-push-1 { margin-left: 8.333333%; }
+	.cf-col-2 {
+		-ms-flex: 0 0 16.66667%;
+		flex: 0 0 16.66667%;
+		max-width: 16.66667%;
+	}
+	.cf-push-2 { margin-left: 16.66667%; }
+	.cf-col-3 {
+		-ms-flex: 0 0 25%;
+		flex: 0 0 25%;
+		max-width: 25%;
+	}
+	.cf-push-3 { margin-left: 25%; }
+	.cf-col-4 {
+		-ms-flex: 0 0 33.33333%;
+		flex: 0 0 33.33333%;
+		max-width: 33.33333%;
+	}
+	.cf-push-4 { margin-left: 33.33333%; }
+	.cf-col-5 {
+		-ms-flex: 0 0 41.66667%;
+		flex: 0 0 41.66667%;
+		max-width: 41.66667%;
+	}
+	.cf-push-5 { margin-left: 41.66667%; }
+	.cf-col-6 {
+		-ms-flex: 0 0 50%;
+		flex: 0 0 50%;
+		max-width: 50%;
+	}
+	.cf-push-6 { margin-left: 50%; }
+	.cf-col-7 {
+		-ms-flex: 0 0 58.33333%;
+		flex: 0 0 58.33333%;
+		max-width: 58.33333%;
+	}
+	.cf-push-7 { margin-left: 58.33333%; }
+	.cf-col-8 {
+		-ms-flex: 0 0 66.66667%;
+		flex: 0 0 66.66667%;
+		max-width: 66.66667%;
+	}
+	.cf-push-8 { margin-left: 66.66667%; }
+	.cf-col-9 {
+		-ms-flex: 0 0 75%;
+		flex: 0 0 75%;
+		max-width: 75%;
+	}
+	.cf-push-9 { margin-left: 75%; }
+	.cf-col-10 {
+		-ms-flex: 0 0 83.33333%;
+		flex: 0 0 83.33333%;
+		max-width: 83.33333%;
+	}
+	.cf-push-10 { margin-left: 83.33333%; }
+	.cf-col-11 {
+		-ms-flex: 0 0 91.66667%;
+		flex: 0 0 91.66667%;
+		max-width: 91.66667%;
+	}
+	.cf-push-11 { margin-left: 91.66667%; }
+	.cf-col-12 {
+		-ms-flex: 0 0 100%;
+		flex: 0 0 100%;
+		max-width: 100%;
+	}
+}
+
+		</style>
+		</head><body data-rsssl=1 class="post-template-default single single-post postid-4828 single-format-standard no-js theme-jupiterx woocommerce-no-js elementor-default elementor-kit-658 elementor-page elementor-page-4828 jupiterx-post-template-custom jupiterx-header-sticky jupiterx-header-tablet-behavior-off jupiterx-header-mobile-behavior-off" itemscope="itemscope" itemtype="http://schema.org/WebPage"><a class="jupiterx-a11y jupiterx-a11y-skip-navigation-link" href="#jupiterx-primary">Skip to content</a><div class="jupiterx-site"><header class="jupiterx-header jupiterx-header-custom jupiterx-header-sticky-custom" data-jupiterx-settings="{&quot;breakpoint&quot;:&quot;767.98&quot;,&quot;template&quot;:&quot;8&quot;,&quot;stickyTemplate&quot;:&quot;461&quot;,&quot;behavior&quot;:&quot;sticky&quot;,&quot;offset&quot;:&quot;500&quot;}" role="banner" itemscope="itemscope" itemtype="http://schema.org/WPHeader">		<div data-elementor-type="header" data-elementor-id="8" class="elementor elementor-8" data-elementor-settings="[]">
+						<div class="elementor-inner">
+							<div class="elementor-section-wrap">
+							<section class="elementor-section elementor-top-section elementor-element elementor-element-468ef0a elementor-section-height-min-height elementor-section-items-stretch elementor-section-boxed elementor-section-height-default" data-id="468ef0a" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-91052dd" data-id="91052dd" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-214d92c elementor-widget elementor-widget-raven-site-logo" data-id="214d92c" data-element_type="widget" data-widget_type="raven-site-logo.default">
+				<div class="elementor-widget-container">
+					<div class="raven-widget-wrapper">
+			<div class="raven-site-logo">
+									<a class="raven-site-logo-link" href="https://brain-mentors.com">
+													<img src="https://brain-mentors.com/wp-content/uploads/2020/05/bmpllogo-1.svg" alt="Brain Mentors" class="raven-site-logo-desktop raven-site-logo-tablet raven-site-logo-mobile" data-no-lazy="1" />
+													</a>
+							</div>
+		</div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-81cf9ba" data-id="81cf9ba" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-97ef966 raven-nav-menu-align-right raven-tablet-nav-menu-align-center raven-mobile-nav-menu-align-center raven-breakpoint-mobile elementor-widget elementor-widget-raven-nav-menu" data-id="97ef966" data-element_type="widget" data-settings="{&quot;mobile_layout&quot;:&quot;full-screen&quot;,&quot;submenu_space_between&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;submenu_opening_position&quot;:&quot;bottom&quot;,&quot;mobile_menu_item_full_width&quot;:&quot;no&quot;}" data-widget_type="raven-nav-menu.default">
+				<div class="elementor-widget-container">
+					<nav class="raven-nav-menu-main raven-nav-menu-horizontal raven-nav-icons-hidden-tablet raven-nav-icons-hidden-mobile">
+			<ul id="menu-97ef966" class="raven-nav-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-1957"><a href="https://brain-mentors.com/" class="raven-menu-item raven-link-item ">Home</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-3463"><a href="https://brain-mentors.com/ourcoursescategories/" class="raven-menu-item raven-link-item ">Our Courses</a>
+<ul class="0 sub-menu raven-submenu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3502"><a href="https://brain-mentors.com/ourcoursescategories/web-development/" class="raven-submenu-item raven-link-item ">Web Development</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3501"><a href="https://brain-mentors.com/ourcoursescategories/data-science-ai/" class="raven-submenu-item raven-link-item ">Data Science / AI</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4022"><a href="https://brain-mentors.com/ourcoursescategories/java/" class="raven-submenu-item raven-link-item ">Java</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-courses menu-item-4498"><a href="https://brain-mentors.com/courses/aws-course/" class="raven-submenu-item raven-link-item ">AWS</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3500"><a href="https://brain-mentors.com/ourcoursescategories/mobile-app-development/" class="raven-submenu-item raven-link-item ">Mobile App Development</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4024"><a href="https://brain-mentors.com/ourcoursescategories/programming-algo/" class="raven-submenu-item raven-link-item ">DS &#038; Algo</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3499"><a href="https://brain-mentors.com/ourcoursescategories/programming-algo/" class="raven-submenu-item raven-link-item ">Programming</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3498"><a href="https://brain-mentors.com/ourcoursescategories/game-development/" class="raven-submenu-item raven-link-item ">Game Development</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3497"><a href="https://brain-mentors.com/ourcoursescategories/graphics-designing/" class="raven-submenu-item raven-link-item ">Graphics Designing</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4756"><a href="https://brain-mentors.com/blog/" class="raven-menu-item raven-link-item ">Blogs</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-153"><a href="https://brain-mentors.com/about/" class="raven-menu-item raven-link-item ">About</a>
+<ul class="0 sub-menu raven-submenu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-150"><a href="https://brain-mentors.com/mentors/" class="raven-submenu-item raven-link-item ">Our Mentors</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2726"><a href="https://brain-mentors.com/gallery/" class="raven-menu-item raven-link-item ">Gallery</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-152"><a href="https://brain-mentors.com/contact/" class="raven-menu-item raven-link-item ">Contact</a></li>
+</ul>		</nav>
+
+		<div class="raven-nav-menu-toggle">
+
+						<div class="raven-nav-menu-toggle-button ">
+				
+				<div class="hamburger hamburger--spin">
+					<div class="hamburger-box">
+						<div class="hamburger-inner"></div>
+					</div>
+				</div>
+								</div>
+
+		</div>
+		<nav class="raven-nav-icons-hidden-tablet raven-nav-icons-hidden-mobile raven-nav-menu-mobile raven-nav-menu-full-screen">
+										<div class="raven-nav-menu-close-button">
+					<span class="raven-nav-menu-close-icon">&times;</span>
+				</div>
+						<div class="raven-container">
+				<ul id="menu-mobile-97ef966" class="raven-nav-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-1957"><a href="https://brain-mentors.com/" class="raven-menu-item raven-link-item ">Home</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-3463"><a href="https://brain-mentors.com/ourcoursescategories/" class="raven-menu-item raven-link-item ">Our Courses</a>
+<ul class="0 sub-menu raven-submenu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3502"><a href="https://brain-mentors.com/ourcoursescategories/web-development/" class="raven-submenu-item raven-link-item ">Web Development</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3501"><a href="https://brain-mentors.com/ourcoursescategories/data-science-ai/" class="raven-submenu-item raven-link-item ">Data Science / AI</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4022"><a href="https://brain-mentors.com/ourcoursescategories/java/" class="raven-submenu-item raven-link-item ">Java</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-courses menu-item-4498"><a href="https://brain-mentors.com/courses/aws-course/" class="raven-submenu-item raven-link-item ">AWS</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3500"><a href="https://brain-mentors.com/ourcoursescategories/mobile-app-development/" class="raven-submenu-item raven-link-item ">Mobile App Development</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4024"><a href="https://brain-mentors.com/ourcoursescategories/programming-algo/" class="raven-submenu-item raven-link-item ">DS &#038; Algo</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3499"><a href="https://brain-mentors.com/ourcoursescategories/programming-algo/" class="raven-submenu-item raven-link-item ">Programming</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3498"><a href="https://brain-mentors.com/ourcoursescategories/game-development/" class="raven-submenu-item raven-link-item ">Game Development</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3497"><a href="https://brain-mentors.com/ourcoursescategories/graphics-designing/" class="raven-submenu-item raven-link-item ">Graphics Designing</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4756"><a href="https://brain-mentors.com/blog/" class="raven-menu-item raven-link-item ">Blogs</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-153"><a href="https://brain-mentors.com/about/" class="raven-menu-item raven-link-item ">About</a>
+<ul class="0 sub-menu raven-submenu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-150"><a href="https://brain-mentors.com/mentors/" class="raven-submenu-item raven-link-item ">Our Mentors</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2726"><a href="https://brain-mentors.com/gallery/" class="raven-menu-item raven-link-item ">Gallery</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-152"><a href="https://brain-mentors.com/contact/" class="raven-menu-item raven-link-item ">Contact</a></li>
+</ul>			</div>
+		</nav>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+						</div>
+						</div>
+					</div>
+				<div data-elementor-type="header" data-elementor-id="461" class="elementor elementor-461" data-elementor-settings="[]">
+						<div class="elementor-inner">
+							<div class="elementor-section-wrap">
+							<section class="elementor-section elementor-top-section elementor-element elementor-element-9a1f4b8 elementor-section-height-min-height elementor-section-items-stretch elementor-section-boxed elementor-section-height-default" data-id="9a1f4b8" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-4d9979b" data-id="4d9979b" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-a98c74f elementor-widget elementor-widget-raven-site-logo" data-id="a98c74f" data-element_type="widget" data-widget_type="raven-site-logo.default">
+				<div class="elementor-widget-container">
+					<div class="raven-widget-wrapper">
+			<div class="raven-site-logo">
+									<a class="raven-site-logo-link" href="https://brain-mentors.com">
+													<img src="https://brain-mentors.com/wp-content/uploads/2020/05/bmpllogo-1.svg" alt="Brain Mentors" class="raven-site-logo-desktop raven-site-logo-tablet raven-site-logo-mobile" data-no-lazy="1" />
+													</a>
+							</div>
+		</div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-a39ffe8" data-id="a39ffe8" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-76d388f raven-nav-menu-align-right raven-tablet-nav-menu-align-center raven-mobile-nav-menu-align-center raven-nav-menu-stretch raven-breakpoint-mobile elementor-widget elementor-widget-raven-nav-menu" data-id="76d388f" data-element_type="widget" data-settings="{&quot;full_width&quot;:&quot;stretch&quot;,&quot;mobile_layout&quot;:&quot;dropdown&quot;,&quot;submenu_space_between&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;submenu_opening_position&quot;:&quot;bottom&quot;}" data-widget_type="raven-nav-menu.default">
+				<div class="elementor-widget-container">
+					<nav class="raven-nav-menu-main raven-nav-menu-horizontal raven-nav-icons-hidden-tablet raven-nav-icons-hidden-mobile">
+			<ul id="menu-76d388f" class="raven-nav-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-1957"><a href="https://brain-mentors.com/" class="raven-menu-item raven-link-item ">Home</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-3463"><a href="https://brain-mentors.com/ourcoursescategories/" class="raven-menu-item raven-link-item ">Our Courses</a>
+<ul class="0 sub-menu raven-submenu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3502"><a href="https://brain-mentors.com/ourcoursescategories/web-development/" class="raven-submenu-item raven-link-item ">Web Development</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3501"><a href="https://brain-mentors.com/ourcoursescategories/data-science-ai/" class="raven-submenu-item raven-link-item ">Data Science / AI</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4022"><a href="https://brain-mentors.com/ourcoursescategories/java/" class="raven-submenu-item raven-link-item ">Java</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-courses menu-item-4498"><a href="https://brain-mentors.com/courses/aws-course/" class="raven-submenu-item raven-link-item ">AWS</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3500"><a href="https://brain-mentors.com/ourcoursescategories/mobile-app-development/" class="raven-submenu-item raven-link-item ">Mobile App Development</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4024"><a href="https://brain-mentors.com/ourcoursescategories/programming-algo/" class="raven-submenu-item raven-link-item ">DS &#038; Algo</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3499"><a href="https://brain-mentors.com/ourcoursescategories/programming-algo/" class="raven-submenu-item raven-link-item ">Programming</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3498"><a href="https://brain-mentors.com/ourcoursescategories/game-development/" class="raven-submenu-item raven-link-item ">Game Development</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3497"><a href="https://brain-mentors.com/ourcoursescategories/graphics-designing/" class="raven-submenu-item raven-link-item ">Graphics Designing</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4756"><a href="https://brain-mentors.com/blog/" class="raven-menu-item raven-link-item ">Blogs</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-153"><a href="https://brain-mentors.com/about/" class="raven-menu-item raven-link-item ">About</a>
+<ul class="0 sub-menu raven-submenu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-150"><a href="https://brain-mentors.com/mentors/" class="raven-submenu-item raven-link-item ">Our Mentors</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2726"><a href="https://brain-mentors.com/gallery/" class="raven-menu-item raven-link-item ">Gallery</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-152"><a href="https://brain-mentors.com/contact/" class="raven-menu-item raven-link-item ">Contact</a></li>
+</ul>		</nav>
+
+		<div class="raven-nav-menu-toggle">
+
+						<div class="raven-nav-menu-toggle-button ">
+				
+				<div class="hamburger hamburger--spin">
+					<div class="hamburger-box">
+						<div class="hamburger-inner"></div>
+					</div>
+				</div>
+								</div>
+
+		</div>
+		<nav class="raven-nav-icons-hidden-tablet raven-nav-icons-hidden-mobile raven-nav-menu-mobile raven-nav-menu-dropdown">
+									<div class="raven-container">
+				<ul id="menu-mobile-76d388f" class="raven-nav-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-1957"><a href="https://brain-mentors.com/" class="raven-menu-item raven-link-item ">Home</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-3463"><a href="https://brain-mentors.com/ourcoursescategories/" class="raven-menu-item raven-link-item ">Our Courses</a>
+<ul class="0 sub-menu raven-submenu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3502"><a href="https://brain-mentors.com/ourcoursescategories/web-development/" class="raven-submenu-item raven-link-item ">Web Development</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3501"><a href="https://brain-mentors.com/ourcoursescategories/data-science-ai/" class="raven-submenu-item raven-link-item ">Data Science / AI</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4022"><a href="https://brain-mentors.com/ourcoursescategories/java/" class="raven-submenu-item raven-link-item ">Java</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-courses menu-item-4498"><a href="https://brain-mentors.com/courses/aws-course/" class="raven-submenu-item raven-link-item ">AWS</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3500"><a href="https://brain-mentors.com/ourcoursescategories/mobile-app-development/" class="raven-submenu-item raven-link-item ">Mobile App Development</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4024"><a href="https://brain-mentors.com/ourcoursescategories/programming-algo/" class="raven-submenu-item raven-link-item ">DS &#038; Algo</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3499"><a href="https://brain-mentors.com/ourcoursescategories/programming-algo/" class="raven-submenu-item raven-link-item ">Programming</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3498"><a href="https://brain-mentors.com/ourcoursescategories/game-development/" class="raven-submenu-item raven-link-item ">Game Development</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3497"><a href="https://brain-mentors.com/ourcoursescategories/graphics-designing/" class="raven-submenu-item raven-link-item ">Graphics Designing</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4756"><a href="https://brain-mentors.com/blog/" class="raven-menu-item raven-link-item ">Blogs</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-153"><a href="https://brain-mentors.com/about/" class="raven-menu-item raven-link-item ">About</a>
+<ul class="0 sub-menu raven-submenu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-150"><a href="https://brain-mentors.com/mentors/" class="raven-submenu-item raven-link-item ">Our Mentors</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2726"><a href="https://brain-mentors.com/gallery/" class="raven-menu-item raven-link-item ">Gallery</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-152"><a href="https://brain-mentors.com/contact/" class="raven-menu-item raven-link-item ">Contact</a></li>
+</ul>			</div>
+		</nav>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+						</div>
+						</div>
+					</div>
+		</header><main class="jupiterx-main"><style id="elementor-post-dynamic-154">.elementor-154 .elementor-element.elementor-element-af08ce9:not(.elementor-motion-effects-element-type-background), .elementor-154 .elementor-element.elementor-element-af08ce9 > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-image:url("https://brain-mentors.com/wp-content/uploads/2020/11/adef.jpg");}</style>		<div data-elementor-type="single" data-elementor-id="154" class="elementor elementor-154" data-elementor-settings="[]">
+						<div class="elementor-inner">
+							<div class="elementor-section-wrap">
+							<section class="elementor-section elementor-top-section elementor-element elementor-element-af08ce9 elementor-section-height-min-height elementor-section-boxed elementor-section-height-default elementor-section-items-middle" data-id="af08ce9" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+							<div class="elementor-background-overlay"></div>
+							<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-fcd7a90" data-id="fcd7a90" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-1df9f09 elementor-align-center elementor-widget elementor-widget-raven-heading" data-id="1df9f09" data-element_type="widget" data-widget_type="raven-heading.default">
+				<div class="elementor-widget-container">
+					<div class="raven-widget-wrapper"><h1 class="raven-heading raven-heading-h1"><span class="raven-heading-title">Face Mask Detection Using OpenCV in Python</span></h1></div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-ba30035 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="ba30035" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-8d0df9a" data-id="8d0df9a" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-830151d elementor-widget elementor-widget-raven-post-content" data-id="830151d" data-element_type="widget" data-widget_type="raven-post-content.default">
+				<div class="elementor-widget-container">
+					<div data-elementor-type="wp-post" data-elementor-id="4828" class="elementor elementor-4828" data-elementor-settings="[]">
+						<div class="elementor-inner">
+							<div class="elementor-section-wrap">
+							<section class="elementor-section elementor-top-section elementor-element elementor-element-8f03ba2 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="8f03ba2" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-9a4c0b8" data-id="9a4c0b8" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-4bc57d3 elementor-widget elementor-widget-image" data-id="4bc57d3" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-image">
+										<picture class="attachment-large size-large">
+<source type="image/webp" srcset="https://brain-mentors.com/wp-content/uploads/2020/11/adef.jpg.webp 830w, https://brain-mentors.com/wp-content/uploads/2020/11/adef-300x191.jpg.webp 300w, https://brain-mentors.com/wp-content/uploads/2020/11/adef-768x489.jpg.webp 768w, https://brain-mentors.com/wp-content/uploads/2020/11/adef-150x95.jpg.webp 150w, https://brain-mentors.com/wp-content/uploads/2020/11/adef-600x382.jpg.webp 600w" sizes="(max-width: 830px) 100vw, 830px"/>
+<img width="830" height="528" src="https://brain-mentors.com/wp-content/uploads/2020/11/adef.jpg" alt="" srcset="https://brain-mentors.com/wp-content/uploads/2020/11/adef.jpg 830w, https://brain-mentors.com/wp-content/uploads/2020/11/adef-300x191.jpg 300w, https://brain-mentors.com/wp-content/uploads/2020/11/adef-768x489.jpg 768w, https://brain-mentors.com/wp-content/uploads/2020/11/adef-150x95.jpg 150w, https://brain-mentors.com/wp-content/uploads/2020/11/adef-600x382.jpg 600w" sizes="(max-width: 830px) 100vw, 830px"/>
+</picture>
+											</div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-48b8b40" data-id="48b8b40" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-7e984e7 elementor-widget elementor-widget-image" data-id="7e984e7" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-image">
+										<picture class="attachment-medium size-medium">
+<source type="image/webp" srcset="https://brain-mentors.com/wp-content/uploads/2020/11/uuu-300x300.png.webp 300w, https://brain-mentors.com/wp-content/uploads/2020/11/uuu-150x150.png.webp 150w, https://brain-mentors.com/wp-content/uploads/2020/11/uuu-500x500.png.webp 500w, https://brain-mentors.com/wp-content/uploads/2020/11/uuu-640x640.png.webp 640w, https://brain-mentors.com/wp-content/uploads/2020/11/uuu-96x96.png.webp 96w, https://brain-mentors.com/wp-content/uploads/2020/11/uuu-600x600.png.webp 600w, https://brain-mentors.com/wp-content/uploads/2020/11/uuu-100x100.png.webp 100w, https://brain-mentors.com/wp-content/uploads/2020/11/uuu.png.webp 768w" sizes="(max-width: 300px) 100vw, 300px"/>
+<img width="300" height="300" src="https://brain-mentors.com/wp-content/uploads/2020/11/uuu-300x300.png" alt="" srcset="https://brain-mentors.com/wp-content/uploads/2020/11/uuu-300x300.png 300w, https://brain-mentors.com/wp-content/uploads/2020/11/uuu-150x150.png 150w, https://brain-mentors.com/wp-content/uploads/2020/11/uuu-500x500.png 500w, https://brain-mentors.com/wp-content/uploads/2020/11/uuu-640x640.png 640w, https://brain-mentors.com/wp-content/uploads/2020/11/uuu-96x96.png 96w, https://brain-mentors.com/wp-content/uploads/2020/11/uuu-600x600.png 600w, https://brain-mentors.com/wp-content/uploads/2020/11/uuu-100x100.png 100w, https://brain-mentors.com/wp-content/uploads/2020/11/uuu.png 768w" sizes="(max-width: 300px) 100vw, 300px"/>
+</picture>
+											</div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-d843393 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="d843393" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-54db7aa" data-id="54db7aa" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-334f174 elementor-widget elementor-widget-text-editor" data-id="334f174" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>In this blog we are going to learn how to implement face mask detection problem. Today it has become mandatory for all the citizens to wear a face mask to protect themselves from COVID-19. This application can be helpful for all the shop owners, offices, banks or any public place because if anyone is not wearing a mask then he or she must not be allowed in that area. So, to take care of this problem we don’t need any guard or person who keeps a watch on people. We can integrate a camera which continuously clicks pictures of humans and detect from there faces whether they are wearing a face mask or not.</p></div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-d6a12bc elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="d6a12bc" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-0d2e630" data-id="0d2e630" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-97d8c58 elementor-aspect-ratio-169 elementor-widget elementor-widget-raven-video" data-id="97d8c58" data-element_type="widget" data-settings="{&quot;video_type&quot;:&quot;youtube&quot;,&quot;video_aspect_ratio&quot;:&quot;169&quot;}" data-widget_type="raven-video.default">
+				<div class="elementor-widget-container">
+					<div class="raven-widget-wrapper">
+			
+					<div class="raven-video raven-video-inline elementor-fit-aspect-ratio">
+						<iframe class="elementor-video-iframe" allowfullscreen title="youtube Video Player" src="https://www.youtube.com/embed/csYkGeJ5bCM?feature=oembed&amp;autoplay=0&amp;loop=0&amp;rel=0&amp;controls=1&amp;showinfo=1&amp;mute=0&amp;wmode=opaque&amp;enablejsapi=1" allow="autoplay"></iframe>					</div>
+
+					</div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-7f94ce5 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="7f94ce5" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-ba209b9" data-id="ba209b9" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-8702c53 elementor-widget elementor-widget-heading" data-id="8702c53" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h3 class="elementor-heading-title elementor-size-default">Introduction to Image Processing</h3>		</div>
+				</div>
+				<div class="elementor-element elementor-element-c4ce13d elementor-widget elementor-widget-text-editor" data-id="c4ce13d" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>Before implementing face mask detection problem, first we need to understand that how to handle images. Images are simply a collection of colors in red, green and blue format. As a human we see an image with some object or shape in it, but for computer it is just an array with color values range from 0 to 255.</p></div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-10c80b7 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="10c80b7" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-02eb654" data-id="02eb654" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-a34e4f6 elementor-widget elementor-widget-image" data-id="a34e4f6" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-image">
+										<picture class="attachment-large size-large">
+<source type="image/webp" srcset="https://brain-mentors.com/wp-content/uploads/2020/11/lll.jpg.webp 700w, https://brain-mentors.com/wp-content/uploads/2020/11/lll-300x143.jpg.webp 300w, https://brain-mentors.com/wp-content/uploads/2020/11/lll-150x72.jpg.webp 150w, https://brain-mentors.com/wp-content/uploads/2020/11/lll-600x286.jpg.webp 600w" sizes="(max-width: 700px) 100vw, 700px"/>
+<img width="700" height="334" src="https://brain-mentors.com/wp-content/uploads/2020/11/lll.jpg" alt="" srcset="https://brain-mentors.com/wp-content/uploads/2020/11/lll.jpg 700w, https://brain-mentors.com/wp-content/uploads/2020/11/lll-300x143.jpg 300w, https://brain-mentors.com/wp-content/uploads/2020/11/lll-150x72.jpg 150w, https://brain-mentors.com/wp-content/uploads/2020/11/lll-600x286.jpg 600w" sizes="(max-width: 700px) 100vw, 700px"/>
+</picture>
+											</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-2b2813e elementor-widget elementor-widget-text-editor" data-id="2b2813e" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>The way computer sees anything is different from the way human see an image. But that’s the good news for us because if we got an array of the image than it becomes simple for us to implement any algorithm on that array.</p></div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-7d3c8a5 elementor-widget elementor-widget-heading" data-id="7d3c8a5" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h3 class="elementor-heading-title elementor-size-default">Steps to Perform Image Processing :</h3>		</div>
+				</div>
+				<div class="elementor-element elementor-element-820ed9c elementor-widget elementor-widget-text-editor" data-id="820ed9c" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><ul><li>Load images using Python or any other programming you are working on.</li><li>Convert images into array</li><li>And finally apply some algorithm on that array</li></ul><p>Another good thing is that we have a library known as OpenCV which will help us to read the image and return array of color pixels.</p></div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-6aa3b8e elementor-widget elementor-widget-heading" data-id="6aa3b8e" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h3 class="elementor-heading-title elementor-size-default">Introduction to OpenCV</h3>		</div>
+				</div>
+				<div class="elementor-element elementor-element-856dbbb elementor-widget elementor-widget-text-editor" data-id="856dbbb" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><ul><li>OpenCV (Open Source Computer Vision Library) is an open source computer vision and machine learning software library.</li><li>The library has more than 2500 optimized algorithms.</li><li>It has C++, Python, Java and MATLAB interfaces and supports Windows, Linux, Android and Mac OS.</li><li>Will help us to load images in Python and convert them into array.</li><li>Each index of array represents (red, green, blue) color pixel which ranges from 0 to 255.</li><li> </li></ul></div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-c8e8bba elementor-widget elementor-widget-heading" data-id="c8e8bba" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h3 class="elementor-heading-title elementor-size-default">Features of OpenCV</h3>		</div>
+				</div>
+				<div class="elementor-element elementor-element-e2a37f9 elementor-widget elementor-widget-text-editor" data-id="e2a37f9" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><ul><li>Face Detection</li><li>Geometric Transformations</li><li>Image Thresholding</li><li>Smoothing Images</li><li>Canny Edge Detection</li><li>Background Removals</li><li>Image Segmentation</li></ul></div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-a4e1945 elementor-widget elementor-widget-heading" data-id="a4e1945" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h3 class="elementor-heading-title elementor-size-default">Getting started with OpenCV</h3>		</div>
+				</div>
+				<div class="elementor-element elementor-element-3e77f30 elementor-widget elementor-widget-text-editor" data-id="3e77f30" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>To install OpenCV open command prompt or terminal and type:</p></div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-5d29b05 elementor-widget elementor-widget-image" data-id="5d29b05" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-image">
+										<picture class="attachment-large size-large">
+<source type="image/webp" srcset="https://brain-mentors.com/wp-content/uploads/2020/11/pp.png.webp 605w, https://brain-mentors.com/wp-content/uploads/2020/11/pp-300x80.png.webp 300w, https://brain-mentors.com/wp-content/uploads/2020/11/pp-150x40.png.webp 150w, https://brain-mentors.com/wp-content/uploads/2020/11/pp-600x161.png.webp 600w" sizes="(max-width: 605px) 100vw, 605px"/>
+<img width="605" height="162" src="https://brain-mentors.com/wp-content/uploads/2020/11/pp.png" alt="" srcset="https://brain-mentors.com/wp-content/uploads/2020/11/pp.png 605w, https://brain-mentors.com/wp-content/uploads/2020/11/pp-300x80.png 300w, https://brain-mentors.com/wp-content/uploads/2020/11/pp-150x40.png 150w, https://brain-mentors.com/wp-content/uploads/2020/11/pp-600x161.png 600w" sizes="(max-width: 605px) 100vw, 605px"/>
+</picture>
+											</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-f269625 elementor-widget elementor-widget-text-editor" data-id="f269625" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>Alternatively, you can install OpenCV directly using Jupyter Notebook</p></div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-41fc45b elementor-widget elementor-widget-image" data-id="41fc45b" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-image">
+										<picture class="attachment-large size-large">
+<source type="image/webp" srcset="https://brain-mentors.com/wp-content/uploads/2020/11/oo.png.webp 956w, https://brain-mentors.com/wp-content/uploads/2020/11/oo-300x37.png.webp 300w, https://brain-mentors.com/wp-content/uploads/2020/11/oo-768x95.png.webp 768w, https://brain-mentors.com/wp-content/uploads/2020/11/oo-150x19.png.webp 150w, https://brain-mentors.com/wp-content/uploads/2020/11/oo-600x74.png.webp 600w" sizes="(max-width: 956px) 100vw, 956px"/>
+<img width="956" height="118" src="https://brain-mentors.com/wp-content/uploads/2020/11/oo.png" alt="" srcset="https://brain-mentors.com/wp-content/uploads/2020/11/oo.png 956w, https://brain-mentors.com/wp-content/uploads/2020/11/oo-300x37.png 300w, https://brain-mentors.com/wp-content/uploads/2020/11/oo-768x95.png 768w, https://brain-mentors.com/wp-content/uploads/2020/11/oo-150x19.png 150w, https://brain-mentors.com/wp-content/uploads/2020/11/oo-600x74.png 600w" sizes="(max-width: 956px) 100vw, 956px"/>
+</picture>
+											</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-ada4e79 elementor-widget elementor-widget-text-editor" data-id="ada4e79" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>Now we are ready to perform basic image processing using OpenCV Package. So first load OpenCV package like this :</p></div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-c4f92dc elementor-widget elementor-widget-image" data-id="c4f92dc" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-image">
+										<picture class="attachment-large size-large">
+<source type="image/webp" srcset="https://brain-mentors.com/wp-content/uploads/2020/11/uuppp.png.webp 615w, https://brain-mentors.com/wp-content/uploads/2020/11/uuppp-300x60.png.webp 300w, https://brain-mentors.com/wp-content/uploads/2020/11/uuppp-150x30.png.webp 150w, https://brain-mentors.com/wp-content/uploads/2020/11/uuppp-600x119.png.webp 600w" sizes="(max-width: 615px) 100vw, 615px"/>
+<img width="615" height="122" src="https://brain-mentors.com/wp-content/uploads/2020/11/uuppp.png" alt="" srcset="https://brain-mentors.com/wp-content/uploads/2020/11/uuppp.png 615w, https://brain-mentors.com/wp-content/uploads/2020/11/uuppp-300x60.png 300w, https://brain-mentors.com/wp-content/uploads/2020/11/uuppp-150x30.png 150w, https://brain-mentors.com/wp-content/uploads/2020/11/uuppp-600x119.png 600w" sizes="(max-width: 615px) 100vw, 615px"/>
+</picture>
+											</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-48abf22 elementor-widget elementor-widget-text-editor" data-id="48abf22" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>Now after importing OpenCV first let’s read an image :</p></div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-95954c4 elementor-widget elementor-widget-image" data-id="95954c4" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-image">
+										<picture class="attachment-large size-large">
+<source type="image/webp" srcset="https://brain-mentors.com/wp-content/uploads/2020/11/sss.png.webp 938w, https://brain-mentors.com/wp-content/uploads/2020/11/sss-300x204.png.webp 300w, https://brain-mentors.com/wp-content/uploads/2020/11/sss-768x522.png.webp 768w, https://brain-mentors.com/wp-content/uploads/2020/11/sss-150x102.png.webp 150w, https://brain-mentors.com/wp-content/uploads/2020/11/sss-600x408.png.webp 600w" sizes="(max-width: 938px) 100vw, 938px"/>
+<img width="938" height="638" src="https://brain-mentors.com/wp-content/uploads/2020/11/sss.png" alt="" srcset="https://brain-mentors.com/wp-content/uploads/2020/11/sss.png 938w, https://brain-mentors.com/wp-content/uploads/2020/11/sss-300x204.png 300w, https://brain-mentors.com/wp-content/uploads/2020/11/sss-768x522.png 768w, https://brain-mentors.com/wp-content/uploads/2020/11/sss-150x102.png 150w, https://brain-mentors.com/wp-content/uploads/2020/11/sss-600x408.png 600w" sizes="(max-width: 938px) 100vw, 938px"/>
+</picture>
+											</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-22911d6 elementor-widget elementor-widget-text-editor" data-id="22911d6" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>So, when we read any image using OpenCV it returns object of numpy array by default and using img.shape we are checking the height and width of image and also it returns 3 which is the color channel of image. Now we can see the values of array are the color values actually.</p><p>Using matplotlib we can visualize the image :</p></div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-c98326c elementor-widget elementor-widget-image" data-id="c98326c" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-image">
+										<picture class="attachment-large size-large">
+<source type="image/webp" srcset="https://brain-mentors.com/wp-content/uploads/2020/11/sd-1024x664.png.webp 1024w, https://brain-mentors.com/wp-content/uploads/2020/11/sd-300x194.png.webp 300w, https://brain-mentors.com/wp-content/uploads/2020/11/sd-768x498.png.webp 768w, https://brain-mentors.com/wp-content/uploads/2020/11/sd-150x97.png.webp 150w, https://brain-mentors.com/wp-content/uploads/2020/11/sd-600x389.png.webp 600w, https://brain-mentors.com/wp-content/uploads/2020/11/sd.png.webp 1208w" sizes="(max-width: 1024px) 100vw, 1024px"/>
+<img width="1024" height="664" src="https://brain-mentors.com/wp-content/uploads/2020/11/sd-1024x664.png" alt="" srcset="https://brain-mentors.com/wp-content/uploads/2020/11/sd-1024x664.png 1024w, https://brain-mentors.com/wp-content/uploads/2020/11/sd-300x194.png 300w, https://brain-mentors.com/wp-content/uploads/2020/11/sd-768x498.png 768w, https://brain-mentors.com/wp-content/uploads/2020/11/sd-150x97.png 150w, https://brain-mentors.com/wp-content/uploads/2020/11/sd-600x389.png 600w, https://brain-mentors.com/wp-content/uploads/2020/11/sd.png 1208w" sizes="(max-width: 1024px) 100vw, 1024px"/>
+</picture>
+											</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-bd7c3b8 elementor-widget elementor-widget-text-editor" data-id="bd7c3b8" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>And to open image in new window we can write this code :</p></div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-69e8ad8 elementor-widget elementor-widget-image" data-id="69e8ad8" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-image">
+										<picture class="attachment-large size-large">
+<source type="image/webp" srcset="https://brain-mentors.com/wp-content/uploads/2020/11/asasasss.png.webp 950w, https://brain-mentors.com/wp-content/uploads/2020/11/asasasss-300x91.png.webp 300w, https://brain-mentors.com/wp-content/uploads/2020/11/asasasss-768x233.png.webp 768w, https://brain-mentors.com/wp-content/uploads/2020/11/asasasss-150x45.png.webp 150w, https://brain-mentors.com/wp-content/uploads/2020/11/asasasss-600x182.png.webp 600w" sizes="(max-width: 950px) 100vw, 950px"/>
+<img width="950" height="288" src="https://brain-mentors.com/wp-content/uploads/2020/11/asasasss.png" alt="" srcset="https://brain-mentors.com/wp-content/uploads/2020/11/asasasss.png 950w, https://brain-mentors.com/wp-content/uploads/2020/11/asasasss-300x91.png 300w, https://brain-mentors.com/wp-content/uploads/2020/11/asasasss-768x233.png 768w, https://brain-mentors.com/wp-content/uploads/2020/11/asasasss-150x45.png 150w, https://brain-mentors.com/wp-content/uploads/2020/11/asasasss-600x182.png 600w" sizes="(max-width: 950px) 100vw, 950px"/>
+</picture>
+											</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-792077d elementor-widget elementor-widget-text-editor" data-id="792077d" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>Now after running this code you will be able to see image open in a new window.</p><p>First we started a while loop then using cv2.waitKey.</p><p>Now what cv2.waitKey is doing. It is mentioned in the below image where 2 is the time in milliseconds and 27 is ASCII number of escape key. So it means if you press escape then loop is going to break and in last line it will destroy or close all the windows that are opened by OpenCV.</p></div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-e21c1c1 elementor-widget elementor-widget-image" data-id="e21c1c1" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-image">
+										<picture class="attachment-large size-large">
+<source type="image/webp" srcset="https://brain-mentors.com/wp-content/uploads/2020/11/ssa-1024x339.png.webp 1024w, https://brain-mentors.com/wp-content/uploads/2020/11/ssa-300x99.png.webp 300w, https://brain-mentors.com/wp-content/uploads/2020/11/ssa-768x255.png.webp 768w, https://brain-mentors.com/wp-content/uploads/2020/11/ssa-1536x509.png.webp 1536w, https://brain-mentors.com/wp-content/uploads/2020/11/ssa-150x50.png.webp 150w, https://brain-mentors.com/wp-content/uploads/2020/11/ssa-600x199.png.webp 600w, https://brain-mentors.com/wp-content/uploads/2020/11/ssa.png.webp 1575w" sizes="(max-width: 1024px) 100vw, 1024px"/>
+<img width="1024" height="339" src="https://brain-mentors.com/wp-content/uploads/2020/11/ssa-1024x339.png" alt="" srcset="https://brain-mentors.com/wp-content/uploads/2020/11/ssa-1024x339.png 1024w, https://brain-mentors.com/wp-content/uploads/2020/11/ssa-300x99.png 300w, https://brain-mentors.com/wp-content/uploads/2020/11/ssa-768x255.png 768w, https://brain-mentors.com/wp-content/uploads/2020/11/ssa-1536x509.png 1536w, https://brain-mentors.com/wp-content/uploads/2020/11/ssa-150x50.png 150w, https://brain-mentors.com/wp-content/uploads/2020/11/ssa-600x199.png 600w, https://brain-mentors.com/wp-content/uploads/2020/11/ssa.png 1575w" sizes="(max-width: 1024px) 100vw, 1024px"/>
+</picture>
+											</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-86eaaba elementor-widget elementor-widget-heading" data-id="86eaaba" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h3 class="elementor-heading-title elementor-size-default">Face Detection Using OpenCV</h3>		</div>
+				</div>
+				<div class="elementor-element elementor-element-72e7606 elementor-widget elementor-widget-text-editor" data-id="72e7606" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>So now we are going to see how to detect face from an image. Face detection algorithm was introduced by Viola and Jones in 2001. They divided this algorithm in four stages :</p><ol><li>Haar Features Selection</li><li>Integral Images</li><li>AdaBoost</li><li>Cascading Classifier</li></ol><p>We do not have to worry about these steps right now because we already have a XML file which is going to help us to detect faces from the image.</p></div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-c4e5edd elementor-widget elementor-widget-image" data-id="c4e5edd" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-image">
+										<picture class="attachment-large size-large">
+<source type="image/webp" srcset="https://brain-mentors.com/wp-content/uploads/2020/11/aaaa-1024x257.png.webp 1024w, https://brain-mentors.com/wp-content/uploads/2020/11/aaaa-300x75.png.webp 300w, https://brain-mentors.com/wp-content/uploads/2020/11/aaaa-768x193.png.webp 768w, https://brain-mentors.com/wp-content/uploads/2020/11/aaaa-150x38.png.webp 150w, https://brain-mentors.com/wp-content/uploads/2020/11/aaaa-600x151.png.webp 600w, https://brain-mentors.com/wp-content/uploads/2020/11/aaaa.png.webp 1103w" sizes="(max-width: 1024px) 100vw, 1024px"/>
+<img width="1024" height="257" src="https://brain-mentors.com/wp-content/uploads/2020/11/aaaa-1024x257.png" alt="" srcset="https://brain-mentors.com/wp-content/uploads/2020/11/aaaa-1024x257.png 1024w, https://brain-mentors.com/wp-content/uploads/2020/11/aaaa-300x75.png 300w, https://brain-mentors.com/wp-content/uploads/2020/11/aaaa-768x193.png 768w, https://brain-mentors.com/wp-content/uploads/2020/11/aaaa-150x38.png 150w, https://brain-mentors.com/wp-content/uploads/2020/11/aaaa-600x151.png 600w, https://brain-mentors.com/wp-content/uploads/2020/11/aaaa.png 1103w" sizes="(max-width: 1024px) 100vw, 1024px"/>
+</picture>
+											</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-42e3351 elementor-widget elementor-widget-text-editor" data-id="42e3351" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>This code returns x, y, width and height of the face detected in the image. And we can draw a rectangle on the face using this code:</p></div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-da6d404 elementor-widget elementor-widget-image" data-id="da6d404" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-image">
+										<picture class="attachment-large size-large">
+<source type="image/webp" srcset="https://brain-mentors.com/wp-content/uploads/2020/11/qqw-1024x86.png.webp 1024w, https://brain-mentors.com/wp-content/uploads/2020/11/qqw-300x25.png.webp 300w, https://brain-mentors.com/wp-content/uploads/2020/11/qqw-768x65.png.webp 768w, https://brain-mentors.com/wp-content/uploads/2020/11/qqw-150x13.png.webp 150w, https://brain-mentors.com/wp-content/uploads/2020/11/qqw-600x50.png.webp 600w, https://brain-mentors.com/wp-content/uploads/2020/11/qqw.png.webp 1214w" sizes="(max-width: 1024px) 100vw, 1024px"/>
+<img width="1024" height="86" src="https://brain-mentors.com/wp-content/uploads/2020/11/qqw-1024x86.png" alt="" srcset="https://brain-mentors.com/wp-content/uploads/2020/11/qqw-1024x86.png 1024w, https://brain-mentors.com/wp-content/uploads/2020/11/qqw-300x25.png 300w, https://brain-mentors.com/wp-content/uploads/2020/11/qqw-768x65.png 768w, https://brain-mentors.com/wp-content/uploads/2020/11/qqw-150x13.png 150w, https://brain-mentors.com/wp-content/uploads/2020/11/qqw-600x50.png 600w, https://brain-mentors.com/wp-content/uploads/2020/11/qqw.png 1214w" sizes="(max-width: 1024px) 100vw, 1024px"/>
+</picture>
+											</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-8c55cbe elementor-widget elementor-widget-text-editor" data-id="8c55cbe" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>We will iterate over the array returned to us by detectMultiScale method and put x,y,w,h in cv2.rectangle</p><p>Now let’s combine all the codes :</p></div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-84e8615 elementor-widget elementor-widget-image" data-id="84e8615" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-image">
+										<picture class="attachment-large size-large">
+<source type="image/webp" srcset="https://brain-mentors.com/wp-content/uploads/2020/11/12-1024x314.png.webp 1024w, https://brain-mentors.com/wp-content/uploads/2020/11/12-300x92.png.webp 300w, https://brain-mentors.com/wp-content/uploads/2020/11/12-768x235.png.webp 768w, https://brain-mentors.com/wp-content/uploads/2020/11/12-150x46.png.webp 150w, https://brain-mentors.com/wp-content/uploads/2020/11/12-600x184.png.webp 600w, https://brain-mentors.com/wp-content/uploads/2020/11/12.png.webp 1282w" sizes="(max-width: 1024px) 100vw, 1024px"/>
+<img width="1024" height="314" src="https://brain-mentors.com/wp-content/uploads/2020/11/12-1024x314.png" alt="" srcset="https://brain-mentors.com/wp-content/uploads/2020/11/12-1024x314.png 1024w, https://brain-mentors.com/wp-content/uploads/2020/11/12-300x92.png 300w, https://brain-mentors.com/wp-content/uploads/2020/11/12-768x235.png 768w, https://brain-mentors.com/wp-content/uploads/2020/11/12-150x46.png 150w, https://brain-mentors.com/wp-content/uploads/2020/11/12-600x184.png 600w, https://brain-mentors.com/wp-content/uploads/2020/11/12.png 1282w" sizes="(max-width: 1024px) 100vw, 1024px"/>
+</picture>
+											</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-c7364a2 elementor-widget elementor-widget-text-editor" data-id="c7364a2" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>And the output will look like:</p></div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-0814d13 elementor-widget elementor-widget-image" data-id="0814d13" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-image">
+										<picture class="attachment-large size-large">
+<source type="image/webp" srcset="https://brain-mentors.com/wp-content/uploads/2020/11/as.png.webp 938w, https://brain-mentors.com/wp-content/uploads/2020/11/as-300x190.png.webp 300w, https://brain-mentors.com/wp-content/uploads/2020/11/as-768x487.png.webp 768w, https://brain-mentors.com/wp-content/uploads/2020/11/as-150x95.png.webp 150w, https://brain-mentors.com/wp-content/uploads/2020/11/as-600x381.png.webp 600w" sizes="(max-width: 938px) 100vw, 938px"/>
+<img width="938" height="595" src="https://brain-mentors.com/wp-content/uploads/2020/11/as.png" alt="" srcset="https://brain-mentors.com/wp-content/uploads/2020/11/as.png 938w, https://brain-mentors.com/wp-content/uploads/2020/11/as-300x190.png 300w, https://brain-mentors.com/wp-content/uploads/2020/11/as-768x487.png 768w, https://brain-mentors.com/wp-content/uploads/2020/11/as-150x95.png 150w, https://brain-mentors.com/wp-content/uploads/2020/11/as-600x381.png 600w" sizes="(max-width: 938px) 100vw, 938px"/>
+</picture>
+											</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-64b6704 elementor-widget elementor-widget-heading" data-id="64b6704" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h3 class="elementor-heading-title elementor-size-default">Face Mask Detection </h3>		</div>
+				</div>
+				<div class="elementor-element elementor-element-e0211fb elementor-widget elementor-widget-text-editor" data-id="e0211fb" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>Now we are going to start with face mask detection. First let’s understand the process of it</p></div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-a09c8e7 elementor-widget elementor-widget-image" data-id="a09c8e7" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-image">
+										<picture class="attachment-large size-large">
+<source type="image/webp" srcset="https://brain-mentors.com/wp-content/uploads/2020/11/123-1024x824.png.webp 1024w, https://brain-mentors.com/wp-content/uploads/2020/11/123-300x241.png.webp 300w, https://brain-mentors.com/wp-content/uploads/2020/11/123-768x618.png.webp 768w, https://brain-mentors.com/wp-content/uploads/2020/11/123-150x121.png.webp 150w, https://brain-mentors.com/wp-content/uploads/2020/11/123-600x483.png.webp 600w, https://brain-mentors.com/wp-content/uploads/2020/11/123.png.webp 1092w" sizes="(max-width: 1024px) 100vw, 1024px"/>
+<img width="1024" height="824" src="https://brain-mentors.com/wp-content/uploads/2020/11/123-1024x824.png" alt="" srcset="https://brain-mentors.com/wp-content/uploads/2020/11/123-1024x824.png 1024w, https://brain-mentors.com/wp-content/uploads/2020/11/123-300x241.png 300w, https://brain-mentors.com/wp-content/uploads/2020/11/123-768x618.png 768w, https://brain-mentors.com/wp-content/uploads/2020/11/123-150x121.png 150w, https://brain-mentors.com/wp-content/uploads/2020/11/123-600x483.png 600w, https://brain-mentors.com/wp-content/uploads/2020/11/123.png 1092w" sizes="(max-width: 1024px) 100vw, 1024px"/>
+</picture>
+											</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-d4ee2ac elementor-widget elementor-widget-text-editor" data-id="d4ee2ac" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>To implement this case study, we need a lot of images of people wearing a mask and not wearing a mask.</p><p>So first we need to collect data and we are going to collect data using our own camera. Here is the complete code to perform face detection using camera and storing face data only:</p></div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-e60784b elementor-widget elementor-widget-image" data-id="e60784b" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-image">
+										<picture class="attachment-large size-large">
+<source type="image/webp" srcset="https://brain-mentors.com/wp-content/uploads/2020/11/45-1024x375.png.webp 1024w, https://brain-mentors.com/wp-content/uploads/2020/11/45-300x110.png.webp 300w, https://brain-mentors.com/wp-content/uploads/2020/11/45-768x281.png.webp 768w, https://brain-mentors.com/wp-content/uploads/2020/11/45-1536x562.png.webp 1536w, https://brain-mentors.com/wp-content/uploads/2020/11/45-150x55.png.webp 150w, https://brain-mentors.com/wp-content/uploads/2020/11/45-600x220.png.webp 600w, https://brain-mentors.com/wp-content/uploads/2020/11/45.png.webp 1734w" sizes="(max-width: 1024px) 100vw, 1024px"/>
+<img width="1024" height="375" src="https://brain-mentors.com/wp-content/uploads/2020/11/45-1024x375.png" alt="" srcset="https://brain-mentors.com/wp-content/uploads/2020/11/45-1024x375.png 1024w, https://brain-mentors.com/wp-content/uploads/2020/11/45-300x110.png 300w, https://brain-mentors.com/wp-content/uploads/2020/11/45-768x281.png 768w, https://brain-mentors.com/wp-content/uploads/2020/11/45-1536x562.png 1536w, https://brain-mentors.com/wp-content/uploads/2020/11/45-150x55.png 150w, https://brain-mentors.com/wp-content/uploads/2020/11/45-600x220.png 600w, https://brain-mentors.com/wp-content/uploads/2020/11/45.png 1734w" sizes="(max-width: 1024px) 100vw, 1024px"/>
+</picture>
+											</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-7e4954a elementor-widget elementor-widget-text-editor" data-id="7e4954a" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>Save the data in a numpy file and you can also plot the face data to check the data collected by OpenCV</p></div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-2172c6c elementor-widget elementor-widget-image" data-id="2172c6c" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-image">
+										<picture class="attachment-large size-large">
+<source type="image/webp" srcset="https://brain-mentors.com/wp-content/uploads/2020/11/asasaaaa.png.webp 924w, https://brain-mentors.com/wp-content/uploads/2020/11/asasaaaa-300x239.png.webp 300w, https://brain-mentors.com/wp-content/uploads/2020/11/asasaaaa-768x611.png.webp 768w, https://brain-mentors.com/wp-content/uploads/2020/11/asasaaaa-150x119.png.webp 150w, https://brain-mentors.com/wp-content/uploads/2020/11/asasaaaa-600x477.png.webp 600w" sizes="(max-width: 924px) 100vw, 924px"/>
+<img width="924" height="735" src="https://brain-mentors.com/wp-content/uploads/2020/11/asasaaaa.png" alt="" srcset="https://brain-mentors.com/wp-content/uploads/2020/11/asasaaaa.png 924w, https://brain-mentors.com/wp-content/uploads/2020/11/asasaaaa-300x239.png 300w, https://brain-mentors.com/wp-content/uploads/2020/11/asasaaaa-768x611.png 768w, https://brain-mentors.com/wp-content/uploads/2020/11/asasaaaa-150x119.png 150w, https://brain-mentors.com/wp-content/uploads/2020/11/asasaaaa-600x477.png 600w" sizes="(max-width: 924px) 100vw, 924px"/>
+</picture>
+											</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-df72948 elementor-widget elementor-widget-text-editor" data-id="df72948" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>Now we can load the data anywhere and start processing it to apply machine learning on it :</p></div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-f125dd8 elementor-widget elementor-widget-image" data-id="f125dd8" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-image">
+										<picture class="attachment-large size-large">
+<source type="image/webp" srcset="https://brain-mentors.com/wp-content/uploads/2020/11/1234.png.webp 977w, https://brain-mentors.com/wp-content/uploads/2020/11/1234-300x189.png.webp 300w, https://brain-mentors.com/wp-content/uploads/2020/11/1234-768x484.png.webp 768w, https://brain-mentors.com/wp-content/uploads/2020/11/1234-150x95.png.webp 150w, https://brain-mentors.com/wp-content/uploads/2020/11/1234-600x378.png.webp 600w" sizes="(max-width: 977px) 100vw, 977px"/>
+<img width="977" height="616" src="https://brain-mentors.com/wp-content/uploads/2020/11/1234.png" alt="" srcset="https://brain-mentors.com/wp-content/uploads/2020/11/1234.png 977w, https://brain-mentors.com/wp-content/uploads/2020/11/1234-300x189.png 300w, https://brain-mentors.com/wp-content/uploads/2020/11/1234-768x484.png 768w, https://brain-mentors.com/wp-content/uploads/2020/11/1234-150x95.png 150w, https://brain-mentors.com/wp-content/uploads/2020/11/1234-600x378.png 600w" sizes="(max-width: 977px) 100vw, 977px"/>
+</picture>
+											</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-0ba5815 elementor-widget elementor-widget-text-editor" data-id="0ba5815" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>Now we can see that data is loaded with the shape 200, 50, 50, 3.</p><ul><li>Here 200 is the number of images we have collected</li><li>50, 50 is the size of each image</li><li>3 is the color channel (red, green, blue)</li></ul><p>We can reshape the data to make it 2D :</p></div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-12443ed elementor-widget elementor-widget-image" data-id="12443ed" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-image">
+										<picture class="attachment-large size-large">
+<source type="image/webp" srcset="https://brain-mentors.com/wp-content/uploads/2020/11/125-1024x427.png.webp 1024w, https://brain-mentors.com/wp-content/uploads/2020/11/125-300x125.png.webp 300w, https://brain-mentors.com/wp-content/uploads/2020/11/125-768x320.png.webp 768w, https://brain-mentors.com/wp-content/uploads/2020/11/125-150x63.png.webp 150w, https://brain-mentors.com/wp-content/uploads/2020/11/125-600x250.png.webp 600w, https://brain-mentors.com/wp-content/uploads/2020/11/125.png.webp 1178w" sizes="(max-width: 1024px) 100vw, 1024px"/>
+<img width="1024" height="427" src="https://brain-mentors.com/wp-content/uploads/2020/11/125-1024x427.png" alt="" srcset="https://brain-mentors.com/wp-content/uploads/2020/11/125-1024x427.png 1024w, https://brain-mentors.com/wp-content/uploads/2020/11/125-300x125.png 300w, https://brain-mentors.com/wp-content/uploads/2020/11/125-768x320.png 768w, https://brain-mentors.com/wp-content/uploads/2020/11/125-150x63.png 150w, https://brain-mentors.com/wp-content/uploads/2020/11/125-600x250.png 600w, https://brain-mentors.com/wp-content/uploads/2020/11/125.png 1178w" sizes="(max-width: 1024px) 100vw, 1024px"/>
+</picture>
+											</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-8d4e227 elementor-widget elementor-widget-text-editor" data-id="8d4e227" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>And we will concatenate the data into a single array :</p></div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-81ac9df elementor-widget elementor-widget-image" data-id="81ac9df" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-image">
+										<picture class="attachment-large size-large">
+<source type="image/webp" srcset="https://brain-mentors.com/wp-content/uploads/2020/11/11.png.webp 904w, https://brain-mentors.com/wp-content/uploads/2020/11/11-300x86.png.webp 300w, https://brain-mentors.com/wp-content/uploads/2020/11/11-768x219.png.webp 768w, https://brain-mentors.com/wp-content/uploads/2020/11/11-150x43.png.webp 150w, https://brain-mentors.com/wp-content/uploads/2020/11/11-600x171.png.webp 600w" sizes="(max-width: 904px) 100vw, 904px"/>
+<img width="904" height="258" src="https://brain-mentors.com/wp-content/uploads/2020/11/11.png" alt="" srcset="https://brain-mentors.com/wp-content/uploads/2020/11/11.png 904w, https://brain-mentors.com/wp-content/uploads/2020/11/11-300x86.png 300w, https://brain-mentors.com/wp-content/uploads/2020/11/11-768x219.png 768w, https://brain-mentors.com/wp-content/uploads/2020/11/11-150x43.png 150w, https://brain-mentors.com/wp-content/uploads/2020/11/11-600x171.png 600w" sizes="(max-width: 904px) 100vw, 904px"/>
+</picture>
+											</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-fc54fe8 elementor-widget elementor-widget-text-editor" data-id="fc54fe8" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>Using NPR will help you to store data row wise. So our features are ready. Now we need target variable. So let’s create one array of zeros and assign first 200 indexes as zero and next 200 indexes as one. Because first 200 images belong to faces with mask and next 200 images belong to faces without mask.</p></div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-e374a41 elementor-widget elementor-widget-image" data-id="e374a41" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-image">
+										<picture class="attachment-large size-large">
+<source type="image/webp" srcset="https://brain-mentors.com/wp-content/uploads/2020/11/32434.png.webp 896w, https://brain-mentors.com/wp-content/uploads/2020/11/32434-300x98.png.webp 300w, https://brain-mentors.com/wp-content/uploads/2020/11/32434-768x250.png.webp 768w, https://brain-mentors.com/wp-content/uploads/2020/11/32434-150x49.png.webp 150w, https://brain-mentors.com/wp-content/uploads/2020/11/32434-600x196.png.webp 600w" sizes="(max-width: 896px) 100vw, 896px"/>
+<img width="896" height="292" src="https://brain-mentors.com/wp-content/uploads/2020/11/32434.png" alt="" srcset="https://brain-mentors.com/wp-content/uploads/2020/11/32434.png 896w, https://brain-mentors.com/wp-content/uploads/2020/11/32434-300x98.png 300w, https://brain-mentors.com/wp-content/uploads/2020/11/32434-768x250.png 768w, https://brain-mentors.com/wp-content/uploads/2020/11/32434-150x49.png 150w, https://brain-mentors.com/wp-content/uploads/2020/11/32434-600x196.png 600w" sizes="(max-width: 896px) 100vw, 896px"/>
+</picture>
+											</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-6306478 elementor-widget elementor-widget-text-editor" data-id="6306478" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>Now we can apply machine learning on our data after dividing it into train and test.</p></div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-1541125 elementor-widget elementor-widget-image" data-id="1541125" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-image">
+										<picture class="attachment-large size-large">
+<source type="image/webp" srcset="https://brain-mentors.com/wp-content/uploads/2020/11/223-1024x412.png.webp 1024w, https://brain-mentors.com/wp-content/uploads/2020/11/223-300x121.png.webp 300w, https://brain-mentors.com/wp-content/uploads/2020/11/223-768x309.png.webp 768w, https://brain-mentors.com/wp-content/uploads/2020/11/223-150x60.png.webp 150w, https://brain-mentors.com/wp-content/uploads/2020/11/223-600x242.png.webp 600w, https://brain-mentors.com/wp-content/uploads/2020/11/223.png.webp 1475w" sizes="(max-width: 1024px) 100vw, 1024px"/>
+<img width="1024" height="412" src="https://brain-mentors.com/wp-content/uploads/2020/11/223-1024x412.png" alt="" srcset="https://brain-mentors.com/wp-content/uploads/2020/11/223-1024x412.png 1024w, https://brain-mentors.com/wp-content/uploads/2020/11/223-300x121.png 300w, https://brain-mentors.com/wp-content/uploads/2020/11/223-768x309.png 768w, https://brain-mentors.com/wp-content/uploads/2020/11/223-150x60.png 150w, https://brain-mentors.com/wp-content/uploads/2020/11/223-600x242.png 600w, https://brain-mentors.com/wp-content/uploads/2020/11/223.png 1475w" sizes="(max-width: 1024px) 100vw, 1024px"/>
+</picture>
+											</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-bdf8c14 elementor-widget elementor-widget-text-editor" data-id="bdf8c14" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>The algorithm we are using is SVM here. And after training this data on SVM we are getting accuracy of 98%.</p></div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-aea9ffe elementor-widget elementor-widget-image" data-id="aea9ffe" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-image">
+										<picture class="attachment-large size-large">
+<source type="image/webp" srcset="https://brain-mentors.com/wp-content/uploads/2020/11/12312312.png.webp 762w, https://brain-mentors.com/wp-content/uploads/2020/11/12312312-300x117.png.webp 300w, https://brain-mentors.com/wp-content/uploads/2020/11/12312312-150x58.png.webp 150w, https://brain-mentors.com/wp-content/uploads/2020/11/12312312-600x233.png.webp 600w" sizes="(max-width: 762px) 100vw, 762px"/>
+<img width="762" height="296" src="https://brain-mentors.com/wp-content/uploads/2020/11/12312312.png" alt="" srcset="https://brain-mentors.com/wp-content/uploads/2020/11/12312312.png 762w, https://brain-mentors.com/wp-content/uploads/2020/11/12312312-300x117.png 300w, https://brain-mentors.com/wp-content/uploads/2020/11/12312312-150x58.png 150w, https://brain-mentors.com/wp-content/uploads/2020/11/12312312-600x233.png 600w" sizes="(max-width: 762px) 100vw, 762px"/>
+</picture>
+											</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-c34c84b elementor-widget elementor-widget-text-editor" data-id="c34c84b" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>So finally, we can test our faces with or without mask and check whether this algorithm is able to identity you that you are wearing a mask or not.</p></div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-313ffb4 elementor-widget elementor-widget-image" data-id="313ffb4" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-image">
+										<img width="1024" height="782" src="https://brain-mentors.com/wp-content/uploads/2020/11/cap_22-1024x782.png" class="attachment-large size-large" alt="" srcset="https://brain-mentors.com/wp-content/uploads/2020/11/cap_22-1024x782.png 1024w, https://brain-mentors.com/wp-content/uploads/2020/11/cap_22-300x229.png 300w, https://brain-mentors.com/wp-content/uploads/2020/11/cap_22-768x586.png 768w, https://brain-mentors.com/wp-content/uploads/2020/11/cap_22-150x115.png 150w, https://brain-mentors.com/wp-content/uploads/2020/11/cap_22-600x458.png 600w, https://brain-mentors.com/wp-content/uploads/2020/11/cap_22.png 1100w" sizes="(max-width: 1024px) 100vw, 1024px" />											</div>
+				</div>
+				</div>
+				<section class="elementor-section elementor-inner-section elementor-element elementor-element-ea35355 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="ea35355" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-dc51be3" data-id="dc51be3" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-1280734 elementor-widget elementor-widget-image" data-id="1280734" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-image">
+										<img width="703" height="350" src="https://brain-mentors.com/wp-content/uploads/2020/11/213.png" class="attachment-large size-large" alt="" srcset="https://brain-mentors.com/wp-content/uploads/2020/11/213.png 703w, https://brain-mentors.com/wp-content/uploads/2020/11/213-300x149.png 300w, https://brain-mentors.com/wp-content/uploads/2020/11/213-150x75.png 150w, https://brain-mentors.com/wp-content/uploads/2020/11/213-600x299.png 600w" sizes="(max-width: 703px) 100vw, 703px" />											</div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-6e72553" data-id="6e72553" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-f21dd80 elementor-widget elementor-widget-image" data-id="f21dd80" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-image">
+										<img width="698" height="355" src="https://brain-mentors.com/wp-content/uploads/2020/11/31.png" class="attachment-large size-large" alt="" srcset="https://brain-mentors.com/wp-content/uploads/2020/11/31.png 698w, https://brain-mentors.com/wp-content/uploads/2020/11/31-300x153.png 300w, https://brain-mentors.com/wp-content/uploads/2020/11/31-150x76.png 150w, https://brain-mentors.com/wp-content/uploads/2020/11/31-600x305.png 600w" sizes="(max-width: 698px) 100vw, 698px" />											</div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+						</div>
+						</div>
+					</div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+						</div>
+						</div>
+					</div>
+		</main><footer class="jupiterx-footer" role="contentinfo" itemscope="itemscope" itemtype="http://schema.org/WPFooter">		<div data-elementor-type="footer" data-elementor-id="97" class="elementor elementor-97" data-elementor-settings="[]">
+						<div class="elementor-inner">
+							<div class="elementor-section-wrap">
+							<section class="elementor-section elementor-top-section elementor-element elementor-element-1c7d081 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="1c7d081" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-489106c" data-id="489106c" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-3189017 elementor-widget elementor-widget-raven-site-logo" data-id="3189017" data-element_type="widget" data-widget_type="raven-site-logo.default">
+				<div class="elementor-widget-container">
+					<div class="raven-widget-wrapper">
+			<div class="raven-site-logo">
+									<a class="raven-site-logo-link" href="https://brain-mentors.com">
+													<img src="https://brain-mentors.com/wp-content/uploads/2020/05/bmpllogowhite-1.svg" alt="Brain Mentors" class="raven-site-logo-desktop raven-site-logo-tablet raven-site-logo-mobile" data-no-lazy="1" />
+													</a>
+							</div>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-61d431d elementor-widget elementor-widget-text-editor" data-id="61d431d" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>We are well connected with the industry and are completely aware of the requirements of the IT industry. We are also into corporate trainings on emergent technologies</p><p>The IT Industry today needs personnel who are skilled enough to meet the challenges posed by day-to-day emerging technology and we have taken this pledge to fulfill this demand. We develop IT brains and help our students in every possible way to understand the deep concepts and reach their goals</p></div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-7f70e9a" data-id="7f70e9a" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-f5c4d5c elementor-mobile-align-center elementor-align-left elementor-widget elementor-widget-raven-heading" data-id="f5c4d5c" data-element_type="widget" data-widget_type="raven-heading.default">
+				<div class="elementor-widget-container">
+					<div class="raven-widget-wrapper"><h4 class="raven-heading raven-heading-h4"><span class="raven-heading-title">Social Share</span></h4></div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-d4ae1fc elementor-shape-rounded elementor-grid-0 elementor-widget elementor-widget-social-icons" data-id="d4ae1fc" data-element_type="widget" data-widget_type="social-icons.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-social-icons-wrapper elementor-grid">
+							<div class="elementor-grid-item">
+					<a class="elementor-icon elementor-social-icon elementor-social-icon-envelope elementor-repeater-item-dd9002c" href="mailto:info@brain-mentors.com" target="_blank">
+						<span class="elementor-screen-only">Envelope</span>
+						<i class="fas fa-envelope"></i>					</a>
+				</div>
+							<div class="elementor-grid-item">
+					<a class="elementor-icon elementor-social-icon elementor-social-icon-facebook-f elementor-repeater-item-255bb4d" href="https://www.facebook.com/brainmentors/" target="_blank">
+						<span class="elementor-screen-only">Facebook-f</span>
+						<i class="fab fa-facebook-f"></i>					</a>
+				</div>
+							<div class="elementor-grid-item">
+					<a class="elementor-icon elementor-social-icon elementor-social-icon-instagram elementor-repeater-item-bb0d849" href="https://www.instagram.com/brain.mentors/" target="_blank">
+						<span class="elementor-screen-only">Instagram</span>
+						<i class="fab fa-instagram"></i>					</a>
+				</div>
+							<div class="elementor-grid-item">
+					<a class="elementor-icon elementor-social-icon elementor-social-icon-youtube elementor-repeater-item-8051163" href="https://www.youtube.com/channel/UCHUr0WVZx7H8GRb7L5yRPQg" target="_blank">
+						<span class="elementor-screen-only">Youtube</span>
+						<i class="fab fa-youtube"></i>					</a>
+				</div>
+					</div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-f3a3dad" data-id="f3a3dad" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-5fef951 elementor-mobile-align-center elementor-align-left elementor-widget elementor-widget-raven-heading" data-id="5fef951" data-element_type="widget" data-widget_type="raven-heading.default">
+				<div class="elementor-widget-container">
+					<div class="raven-widget-wrapper"><h4 class="raven-heading raven-heading-h4"><span class="raven-heading-title">Get In Touch</span></h4></div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-ce72bb5 elementor-widget elementor-widget-text-editor" data-id="ce72bb5" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>23, 1st &amp; 2nd Floor<br />Block-C, Pocket-9<br />Rohini Sector-7<br />Delhi-110085<br />Oppposite to Metro Pillar No-400</p></div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+						</div>
+						</div>
+					</div>
+		</footer><div class="jupiterx-corner-buttons" data-jupiterx-scroll="{&quot;offset&quot;:1000}"><button class="jupiterx-scroll-top jupiterx-icon-angle-up" data-jupiterx-scroll-target="0"></button></div></div><script type='text/javascript'>
+/* <![CDATA[ */
+var hasJetBlogPlaylist = 0;
+/* ]]> */
+</script>
+<div id="jet-popup-466" class="jet-popup jet-popup--front-mode jet-popup--hide-state jet-popup--animation-bounce-out" data-settings="{&quot;id&quot;:466,&quot;jet-popup-id&quot;:&quot;jet-popup-466&quot;,&quot;type&quot;:&quot;default&quot;,&quot;animation&quot;:&quot;bounce-out&quot;,&quot;open-trigger&quot;:&quot;custom-selector&quot;,&quot;page-load-delay&quot;:1,&quot;user-inactivity-time&quot;:3,&quot;scrolled-to&quot;:10,&quot;on-date&quot;:&quot;&quot;,&quot;custom-selector&quot;:&quot;.enroll&quot;,&quot;show-once&quot;:false,&quot;show-again-delay&quot;:&quot;none&quot;,&quot;use-ajax&quot;:false,&quot;force-ajax&quot;:false,&quot;close-on-overlay-click&quot;:true}">
+	<div class="jet-popup__inner">
+		<div class="jet-popup__overlay"></div>		<div class="jet-popup__container">
+			<div class="jet-popup__container-inner">
+				<div class="jet-popup__container-overlay"></div>
+				<div class="jet-popup__container-content">		<div data-elementor-type="jet-popup" data-elementor-id="466" class="elementor elementor-466" data-elementor-settings="[]">
+						<div class="elementor-inner">
+							<div class="elementor-section-wrap">
+							<section class="elementor-section elementor-top-section elementor-element elementor-element-2e83be6 elementor-section-height-min-height elementor-section-items-stretch elementor-section-boxed elementor-section-height-default" data-id="2e83be6" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-5c1dfc6" data-id="5c1dfc6" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-5755469 elementor-align-left elementor-widget elementor-widget-raven-heading" data-id="5755469" data-element_type="widget" data-widget_type="raven-heading.default">
+				<div class="elementor-widget-container">
+					<div class="raven-widget-wrapper"><h2 class="raven-heading raven-heading-h2"><span class="raven-heading-title">Sign Up and Start Learning</span></h2></div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-5a1a86a elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="5a1a86a" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-9f3eabe" data-id="9f3eabe" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-8fe038f raven-form-button-align-left elementor-widget elementor-widget-raven-form" data-id="8fe038f" data-element_type="widget" data-settings="{&quot;fields&quot;:[{&quot;label&quot;:&quot;username&quot;,&quot;type&quot;:&quot;text&quot;,&quot;placeholder&quot;:&quot;enter user name&quot;,&quot;_id&quot;:&quot;aad6092&quot;,&quot;recaptcha_badge&quot;:null,&quot;recaptcha_theme&quot;:null,&quot;recaptcha_size&quot;:null,&quot;acceptance_text&quot;:null,&quot;field_options&quot;:null,&quot;inline_list&quot;:null,&quot;native_html5&quot;:null,&quot;multiple_selection&quot;:null,&quot;rows&quot;:null,&quot;required&quot;:&quot;&quot;,&quot;width&quot;:&quot;100&quot;,&quot;width_tablet&quot;:&quot;&quot;,&quot;width_mobile&quot;:&quot;&quot;,&quot;checked_by_default&quot;:null,&quot;min_time&quot;:null,&quot;max_time&quot;:null,&quot;min_date&quot;:null,&quot;max_date&quot;:null,&quot;localization&quot;:null,&quot;min&quot;:null,&quot;max&quot;:null},{&quot;label&quot;:&quot;email address&quot;,&quot;type&quot;:&quot;email&quot;,&quot;placeholder&quot;:&quot;enter email address&quot;,&quot;required&quot;:&quot;true&quot;,&quot;_id&quot;:&quot;80b4c14&quot;,&quot;recaptcha_badge&quot;:null,&quot;recaptcha_theme&quot;:null,&quot;recaptcha_size&quot;:null,&quot;acceptance_text&quot;:null,&quot;field_options&quot;:null,&quot;inline_list&quot;:null,&quot;native_html5&quot;:null,&quot;multiple_selection&quot;:null,&quot;rows&quot;:null,&quot;width&quot;:&quot;100&quot;,&quot;width_tablet&quot;:&quot;&quot;,&quot;width_mobile&quot;:&quot;&quot;,&quot;checked_by_default&quot;:null,&quot;min_time&quot;:null,&quot;max_time&quot;:null,&quot;min_date&quot;:null,&quot;max_date&quot;:null,&quot;localization&quot;:null,&quot;min&quot;:null,&quot;max&quot;:null}]}" data-widget_type="raven-form.default">
+				<div class="elementor-widget-container">
+					<form class="raven-form raven-flex raven-flex-wrap raven-flex-bottom raven-hide-required-mark" method="post" name="New form">
+			<input type="hidden" name="post_id" value="466" />
+			<input type="hidden" name="form_id" value="8fe038f" />
+					<div id="raven-field-group-aad6092" class="raven-flex-wrap raven-field-type-text raven-field-group elementor-column elementor-col-100">
+					<label
+			for="form-field-aad6092"
+			class="raven-field-label">
+			username			</label>
+				<input
+			oninput="onInvalidRavenFormField(event)"
+			oninvalid="onInvalidRavenFormField(event)"
+			type="text" name="fields[aad6092]" id="form-field-aad6092" class="raven-field" placeholder="enter user name" data-type="text">
+				</div>
+				<div id="raven-field-group-80b4c14" class="raven-flex-wrap raven-field-type-email raven-field-group elementor-column elementor-col-100 raven-field-required">
+					<label
+			for="form-field-80b4c14"
+			class="raven-field-label">
+			email address			</label>
+				<input
+			oninput="onInvalidRavenFormField(event)"
+			oninvalid="onInvalidRavenFormField(event)"
+			type="email" name="fields[80b4c14]" id="form-field-80b4c14" class="raven-field" placeholder="enter email address" data-type="email" required="required">
+				</div>
+					<div class="raven-field-group raven-field-type-submit-button elementor-column elementor-col-100 justify">
+				<button type="submit" class="raven-submit-button">
+										<span>enroll now</span>
+				</button>
+			</div>
+		</form>
+
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+						</div>
+						</div>
+					</div>
+		</div>
+			</div>
+			<div class="jet-popup__close-button"><i class="fa fa-times" aria-hidden="true"></i></div>		</div>
+	</div>
+</div>
+<script type="text/javascript">
+		(function() {
+			document.body.className = document.body.className.replace('no-js','js');
+		}());
+	</script>
+		<script type="text/javascript">
+		var c = document.body.className;
+		c = c.replace(/woocommerce-no-js/, 'woocommerce-js');
+		document.body.className = c;
+	</script>
+	<link rel='stylesheet' id='elementor-post-154-css'  href='https://brain-mentors.com/wp-content/uploads/elementor/css/post-154.css?ver=1605180847' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-post-466-css'  href='https://brain-mentors.com/wp-content/uploads/elementor/css/post-466.css?ver=1605165913' type='text/css' media='all' />
+<link rel='stylesheet' id='google-fonts-2-css'  href='https://fonts.googleapis.com/css?family=Lato%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&#038;ver=5.4.4' type='text/css' media='all' />
+<script type='text/javascript' src='https://brain-mentors.com/wp-includes/js/comment-reply.min.js?ver=5.4.4'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wpcf7 = {"apiSettings":{"root":"https:\/\/brain-mentors.com\/wp-json\/contact-form-7\/v1","namespace":"contact-form-7\/v1"}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://brain-mentors.com/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=5.2.2'></script>
+<script type='text/javascript' src='https://brain-mentors.com/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.70'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%","i18n_view_cart":"View cart","cart_url":"https:\/\/brain-mentors.com","is_cart":"","cart_redirect_after_add":"no"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://brain-mentors.com/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js?ver=4.1.0'></script>
+<script type='text/javascript' src='https://brain-mentors.com/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js?ver=2.1.4'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var woocommerce_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://brain-mentors.com/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=4.1.0'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wc_cart_fragments_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%","cart_hash_key":"wc_cart_hash_be02fac9d96799128dfae2a249073097","fragment_name":"wc_fragments_be02fac9d96799128dfae2a249073097","request_timeout":"5000"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://brain-mentors.com/wp-content/plugins/woocommerce/assets/js/frontend/cart-fragments.min.js?ver=4.1.0'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wpcf7_redirect_forms = {"4307":{"page_id":"3292","external_url":"","use_external_url":"","open_in_new_tab":"","http_build_query":"","http_build_query_selectively":"","http_build_query_selectively_fields":"","delay_redirect":"0","after_sent_script":"","thankyou_page_url":"https:\/\/brain-mentors.com\/thanks\/"},"4219":{"page_id":"3292","external_url":"","use_external_url":"","open_in_new_tab":"","http_build_query":"","http_build_query_selectively":"","http_build_query_selectively_fields":"","delay_redirect":"0","after_sent_script":"","thankyou_page_url":"https:\/\/brain-mentors.com\/thanks\/"},"3267":{"page_id":"3292","external_url":"","use_external_url":"","open_in_new_tab":"","http_build_query":"","http_build_query_selectively":"","http_build_query_selectively_fields":"","delay_redirect":"0","after_sent_script":"","thankyou_page_url":"https:\/\/brain-mentors.com\/thanks\/"},"2188":{"page_id":"","external_url":"","use_external_url":"","open_in_new_tab":"","http_build_query":"","http_build_query_selectively":"","http_build_query_selectively_fields":"","delay_redirect":"","after_sent_script":"","thankyou_page_url":""}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://brain-mentors.com/wp-content/plugins/wpcf7-redirect/js/wpcf7-redirect-script.js'></script>
+<script type='text/javascript' src='https://www.google.com/recaptcha/api.js?render=6LfwxvUUAAAAALgBUWAS9SluJlyPBMqP6HdFZ146&#038;ver=3.0'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wpcf7_recaptcha = {"sitekey":"6LfwxvUUAAAAALgBUWAS9SluJlyPBMqP6HdFZ146","actions":{"homepage":"homepage","contactform":"contactform"}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://brain-mentors.com/wp-content/plugins/contact-form-7/modules/recaptcha/script.js?ver=5.2.2'></script>
+<script type='text/javascript' src='https://brain-mentors.com/wp-includes/js/underscore.min.js?ver=1.8.3'></script>
+<script type='text/javascript' src='https://brain-mentors.com/wp-content/themes/jupiterx/lib/assets/dist/js/frontend.min.js?ver=1.18.1'></script>
+<script type='text/javascript' src='https://brain-mentors.com/wp-includes/js/wp-embed.min.js?ver=5.4.4'></script>
+<script type='text/javascript' src='https://brain-mentors.com/wp-content/plugins/raven/assets/lib/smartmenus/jquery.smartmenus.min.js?ver=1.1.0'></script>
+<script type='text/javascript' src='https://brain-mentors.com/wp-content/plugins/raven/assets/lib/url-polyfill/url-polyfill.min.js?ver=1.1.7'></script>
+<script type='text/javascript' src='https://brain-mentors.com/wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=3.0.13'></script>
+<script type='text/javascript' src='https://brain-mentors.com/wp-includes/js/jquery/ui/position.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='https://brain-mentors.com/wp-content/plugins/elementor/assets/lib/dialog/dialog.min.js?ver=4.8.1'></script>
+<script type='text/javascript' src='https://brain-mentors.com/wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min.js?ver=4.0.2'></script>
+<script type='text/javascript' src='https://brain-mentors.com/wp-content/plugins/elementor/assets/lib/swiper/swiper.min.js?ver=5.3.6'></script>
+<script type='text/javascript' src='https://brain-mentors.com/wp-content/plugins/elementor/assets/lib/share-link/share-link.min.js?ver=3.0.13'></script>
+<script type='text/javascript'>
+var elementorFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false},"i18n":{"shareOnFacebook":"Share on Facebook","shareOnTwitter":"Share on Twitter","pinIt":"Pin it","download":"Download","downloadImage":"Download image","fullscreen":"Fullscreen","zoom":"Zoom","share":"Share","playVideo":"Play Video","previous":"Previous","next":"Next","close":"Close"},"is_rtl":false,"breakpoints":{"xs":0,"sm":480,"md":768,"lg":1025,"xl":1440,"xxl":1600},"version":"3.0.13","is_static":false,"legacyMode":{"elementWrappers":true},"urls":{"assets":"https:\/\/brain-mentors.com\/wp-content\/plugins\/elementor\/assets\/"},"settings":{"page":[],"editorPreferences":[]},"kit":{"global_image_lightbox":"yes","lightbox_enable_counter":"yes","lightbox_enable_fullscreen":"yes","lightbox_enable_zoom":"yes","lightbox_enable_share":"yes","lightbox_title_src":"title","lightbox_description_src":"description"},"post":{"id":4828,"title":"Face%20Mask%20Detection%20Using%20OpenCV%20in%20Python%20%E2%80%93%20Brain%20Mentors","excerpt":"","featuredImage":"https:\/\/brain-mentors.com\/wp-content\/uploads\/2020\/11\/adef.jpg"}};
+</script>
+<script type='text/javascript' src='https://brain-mentors.com/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=3.0.13'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var jetElements = {"ajaxUrl":"https:\/\/brain-mentors.com\/wp-admin\/admin-ajax.php","isMobile":"false","templateApiUrl":"https:\/\/brain-mentors.com\/wp-json\/jet-elements-api\/v1\/elementor-template","devMode":"false","messages":{"invalidMail":"Please specify a valid e-mail"}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://brain-mentors.com/wp-content/plugins/jet-elements/assets/js/jet-elements.min.js?ver=2.3.3'></script>
+<script type='text/javascript' src='https://brain-mentors.com/wp-content/plugins/jet-elements/assets/js/lib/anime-js/anime.min.js?ver=2.2.0'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var jetPopupData = {"elements_data":{"sections":[],"columns":[],"widgets":[]},"version":"1.4.0","ajax_url":"https:\/\/brain-mentors.com\/wp-admin\/admin-ajax.php"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://brain-mentors.com/wp-content/plugins/jet-popup/assets/js/jet-popup-frontend.min.js?ver=1.4.0'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var JetTabsSettings = {"ajaxurl":"https:\/\/brain-mentors.com\/wp-admin\/admin-ajax.php","isMobile":"false","templateApiUrl":"https:\/\/brain-mentors.com\/wp-json\/jet-tabs-api\/v1\/elementor-template","devMode":"false"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://brain-mentors.com/wp-content/plugins/jet-tabs/assets/js/jet-tabs-frontend.min.js?ver=2.1.7'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var jetWooBuilderData = [];
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://brain-mentors.com/wp-content/plugins/jet-woo-builder/assets/js/jet-woo-builder.min.js?ver=1.6.5'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var _wpUtilSettings = {"ajax":{"url":"\/wp-admin\/admin-ajax.php"}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://brain-mentors.com/wp-includes/js/wp-util.min.js?ver=5.4.4'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var ravenFormsTranslations = {"validation":{"required":"Please fill in this field","invalidEmail":"The value is not a valid email address","invalidPhone":"The value should only consist numbers and phone characters (-, +, (), etc)","invalidNumber":"The value is not a valid number","invalidMaxValue":"Value must be less than or equal to MAX_VALUE","invalidMinValue":"Value must be greater than or equal to MIN_VALUE"}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://brain-mentors.com/wp-content/plugins/raven/assets/js/frontend.min.js?ver=1.10.1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var JetBlogSettings = {"ajaxurl":"https:\/\/brain-mentors.com\/wp-admin\/admin-ajax.php"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://brain-mentors.com/wp-content/plugins/jet-blog/assets/js/jet-blog.min.js?ver=2.2.9'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var JetEngineSettings = {"ajaxurl":"https:\/\/brain-mentors.com\/wp-admin\/admin-ajax.php"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://brain-mentors.com/wp-content/plugins/jet-engine/assets/js/frontend.js?ver=2.4.11'></script>
+<script type='text/javascript' src='https://brain-mentors.com/wp-content/plugins/elementor/assets/lib/flatpickr/flatpickr.min.js?ver=4.1.4'></script>
+</body></html><!-- WP Fastest Cache file was created in 4.5452651977539 seconds, on 28-12-20 18:23:31 -->
